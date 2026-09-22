@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：快速启动：本地运行开源项目排障清单
+简介：golang 异步任务队列 worker 池开发，任务入数据库或 redis，worker 池消费执行，异步处理耗时业务。
+ | 原文链接：http://wap.ntpxos.asia/blog/9635251.sHtMl
+
+原标题：golang 工具函数库封装思路
+简介：golang go mod tidy 依赖清理，go mod tidy 自动增删依赖，整理 go.mod go.sum 文件。
+ | 原文链接：http://wap.ntpxos.asia/blog/0716360.sHtMl
+
+原标题：程序日志分级输出规范实践
+简介：golang 日志级别动态调整热更新，不用重启程序动态修改日志输出级别，线上调试排查问题十分方便。
+ | 原文链接：http://wap.ntpxos.asia/blog/9594737.sHtMl
+
+原标题：golang 系统设计限流服务架构讲解
+简介：golang go 服务日志输出 journald，systemd journald 接收程序 stdout 日志，统一管理服务日志。
+ | 原文链接：http://wap.ntpxos.asia/blog/9616916.sHtMl
+
+原标题：golang 系统设计全局异常处理器实现
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://wap.ntpxos.asia/blog/4162516.sHtMl
+
+原标题：Nginx 透传真实客户端 IP 配置
+简介：golang wasm 浏览器 js 交互，go wasm 与 js 互相调用，浏览器端 go 程序操作 dom 调用 js 函数。
+ | 原文链接：http://wap.ntpxos.asia/blog/5261626.sHtMl
+
+原标题：RPC 接口字段增减兼容处理
+简介：防火墙 IP 白名单回调接口放行，配置防火墙白名单，放行第三方回调服务器 IP，接收回调请求正常。
+ | 原文链接：http://wap.ntpxos.asia/blog/0717060.sHtMl
+
+原标题：部署复盘：配置热更新不用重启服务方案
+简介：golang 内存缓存简单实现方案，Go 实现进程内简易内存缓存，本地缓存热点数据，减少远程调用。
+ | 原文链接：http://wap.ntpxos.asia/blog/6379583.sHtMl
+
+原标题：调优方案：Nginx性能参数调优高并发配置
+简介：golang time duration 解析时间字符串，time.ParseDuration 解析 1h30m 时间间隔字符串。
+ | 原文链接：http://wap.ntpxos.asia/blog/8190574.sHtMl
+
+原标题：golang 工具函数库封装思路
+简介：golang 模糊测试 go fuzz 基础编写，Fuzz 测试函数，自动生成随机输入，发现代码崩溃 panic。
+ | 原文链接：http://wap.ntpxos.asia/blog/3050393.sHtMl
+
+原标题：golang 系统设计 protobuf 默认值坑点梳理
+简介：golang go 程序 CPU 占用高定位步骤，pprof 定位热点函数，分析 CPU 高占用，优化耗时代码逻辑。
+ | 原文链接：http://wap.ntpxos.asia/blog/1049288.sHtMl
+
+原标题：golang 开发环境快速搭建指南
+简介：golang systemd 配置 go 服务部署，编写 systemd unit 文件管理 go 服务，开机自启、崩溃自动重启。
+ | 原文链接：http://wap.ntpxos.asia/blog/4819182.sHtMl
+
+原标题：接口限流逻辑简单模拟实现
+简介：golang go 程序版本号内置编译注入，编译时注入 git commit 版本号，程序运行输出版本便于排查。
+ | 原文链接：http://wap.ntpxos.asia/blog/9612819.sHtMl
+
+原标题：记一次内存Swap被大量使用系统响应缓慢
+简介：开源项目本地运行排错完整清单，汇总开源项目拉取后运行失败各类问题，给出排查思路，快速解决本地启动异常。
+ | 原文链接：http://wap.ntpxos.asia/blog/6979572.sHtMl
+
+原标题：DevOps：容器健康探针livenessreadiness配置
+简介：网关超时时间调优后端等待，调大网关向后端转发请求超时时间，给后端业务充足处理时间。
+ | 原文链接：http://wap.ntpxos.asia/blog/0702927.sHtMl
+
+原标题：OpenSource：如何高效阅读大型开源项目源码
+简介：Nginx 请求头大小上限调整，修改 Nginx 配置，调大请求头允许最大大小，避免大 Header 请求被拒绝。
+ | 原文链接：http://wap.ntpxos.asia/blog/8534147.sHtMl
+
+原标题：调优方案：容器CPU内存参数压测后调优
+简介：golang ctx 传递规则不要存结构体，context 作为函数参数传递，禁止放入结构体字段存储。
+ | 原文链接：http://wap.ntpxos.asia/blog/6049304.sHtMl
+
+原标题：Practice：实现限流之后友好业务返回处理
+简介：golang ssh 客户端远程命令执行，golang ssh 连接远程服务器，执行 shell 命令，获取命令输出结果。
+ | 原文链接：http://wap.ntpxos.asia/blog/6079694.sHtMl
+
+原标题：开发复盘：导出大文件避免内存溢出实现方案
+简介：golang trace 可视化分析协程阻塞，使用 trace 网页 UI，定位协程阻塞、系统调用阻塞、锁等待。
+ | 原文链接：http://wap.ntpxos.asia/blog/0712927.sHtMl
+
+原标题：坑点：缓存过期策略不当引发业务异常
+简介：GitHub Markdown 文档语法汇总，整理 Markdown 常用语法，编写仓库 README、文档，提升开源项目文档排版质量。
+ | 原文链接：http://wap.ntpxos.asia/blog/2856961.sHtMl
+
+原标题：数据库排序规则统一结果一致
+简介：golang sql 注入风险规避要点，参数化查询杜绝 sql 注入，禁止字符串拼接 SQL 语句执行。
+ | 原文链接：http://wap.ntpxos.asia/blog/6273826.sHtMl
+
+原标题：golang 系统设计 vscode go 插件调试配置实操
+简介：golang oss 签名 URL 临时访问，生成 oss 临时签名 url，限时访问私有文件，保障文件访问安全可控。
+ | 原文链接：http://wap.ntpxos.asia/blog/0703051.sHtMl
+
+原标题：golang 系统设计限流算法原理代码实现
+简介：golang 多协程任务池并发控制，实现协程任务池，控制并发协程数量，防止无限制创建 goroutine。
+ | 原文链接：http://wap.ntpxos.asia/blog/9727060.sHtMl
+
+原标题：golang mysql 连接泄漏检测方法
+简介：静态博客部署 GitHub Pages 教程，将静态博客项目部署至 GitHub Pages，完成线上访问，快速搭建个人技术博客站点。
+ | 原文链接：http://wap.ntpxos.asia/blog/9273637.sHtMl
+
+原标题：Docker Compose 一键搭建本地栈
+简介：上传接口跨域配置特殊适配，针对文件上传接口，适配复杂请求，修复上传场景下跨域失效问题。
+ | 原文链接：http://wap.ntpxos.asia/blog/3746360.sHtMl
+
+原标题：golang 优雅处理系统信号 SIGINT
+简介：数值类型溢出错乱问题修复，选择合适数值存储类型，处理数值溢出，避免数据存储错乱结果异常。
+ | 原文链接：http://wap.ntpxos.asia/blog/3161406.sHtMl
+
+原标题：前端防抖节流高频事件处理
+简介：golang 容器时区设置镜像构建处理，镜像内部设置正确时区，解决容器时间与宿主机不一致。
+ | 原文链接：http://wap.ntpxos.asia/blog/1473626.sHtMl
+
+原标题：方案设计：批量大数据导出系统架构拆解
+简介：golang go 多版本管理 gvm 使用，gvm 管理多个 go sdk 版本，快速切换不同 go 版本做项目开发。
+ | 原文链接：http://wap.ntpxos.asia/blog/0713920.sHtMl
+
+原标题：golang 系统设计缓存更新策略 cache aside 讲解
+简介：golang go‑zero rpc 微服务开发，go‑zero 定义 proto，生成 rpc 服务代码，实现微服务调用。
+ | 原文链接：http://wap.ntpxos.asia/blog/8505922.sHtMl
+
+原标题：超大数据集分页性能优化方案
+简介：golang go‑zero 缓存自动击穿防护，go‑zero 缓存组件自带缓存击穿防护，减少缓存层故障。
+ | 原文链接：http://wap.ntpxos.asia/blog/1534048.sHtMl
+
+原标题：项目实践：实现统一接口返回封装与全局异常处理
+简介：golang gorm 索引设置与优化技巧，定义数据库索引，理解索引生效条件，避免索引失效慢查询。
+ | 原文链接：http://wap.ntpxos.asia/blog/5268473.sHtMl
+
+原标题：Practice：简易限流器分布式版本Redis实现
+简介：golang 性能压测 wr 工具实操指南，wr 压测工具对 Go 接口压测，观察 QPS 延迟，定位接口性能瓶颈。
+ | 原文链接：http://wap.ntpxos.asia/blog/7422515.sHtMl
+
+原标题：golang 系统设计敏感数据加密存储方案
+简介：golang sync.Pool 对象池复用对象，sync.Pool 复用临时对象，减少内存分配，降低 GC 频率提升性能。
+ | 原文链接：http://wap.ntpxos.asia/blog/2949030.sHtMl
+
+原标题：排错：前端sourcemap错误线上无法定位报错
+简介：golang go‑zero 缓存自动击穿防护，go‑zero 缓存组件自带缓存击穿防护，减少缓存层故障。
+ | 原文链接：http://wap.ntpxos.asia/blog/6372415.sHtMl
+
+原标题：游标分页大数据查询性能提升
+简介：golang sql 注入风险规避要点，参数化查询杜绝 sql 注入，禁止字符串拼接 SQL 语句执行。
+ | 原文链接：http://wap.ntpxos.asia/blog/6373685.sHtMl
+
+原标题：OpenSource：开源项目许可证License选型指南
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：http://wap.ntpxos.asia/blog/3049283.sHtMl
+
+原标题：golang 系统设计监控告警体系搭建思路
+简介：golang go 调度器 GMP 模型通俗讲解，拆解 GMP 模型，理解 goroutine M P 调度原理，看懂调度状态。
+ | 原文链接：http://wap.ntpxos.asia/blog/0716957.sHtMl
+
+原标题：Troubleshooting：依赖安装失败完整排查清单
+简介：golang runtime.Gosched 主动让出调度，长计算循环主动 Gosched，让出调度权，防止其他协程饥饿。
+ | 原文链接：http://wap.ntpxos.asia/blog/9616950.sHtMl
+
+原标题：实践：消息队列死信处理业务落地实践
+简介：golang prometheus 指标埋点开发，业务埋点计数器、仪表盘、直方图，对接 prometheus 采集监控指标。
+ | 原文链接：http://wap.ntpxos.asia/blog/9605737.sHtMl
+
+原标题：golang consul 健康检查服务注册
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：http://wap.ntpxos.asia/blog/5371818.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：零基础学习简单正则表达式实战案例
+简介：golang go mod why 查询依赖引入原因，go mod why 查询为什么引入某个包，理清依赖来源。
+ | 原文链接：http://wap.ntpxos.asia/blog/5089585.sHtMl
+
+原标题：不必要字符转义关闭业务异常
+简介：程序预加载加快服务启动速度，把高频使用资源提前预加载，减少请求阶段初始化，加快服务启动。
+ | 原文链接：http://wap.ntpxos.asia/blog/3056263.sHtMl
+
+原标题：短信服务封装失败自动重试
+简介：golang benchmark 减少测试干扰，benchmark 执行循环 b.N，避免循环内部做非被测逻辑干扰结果。
+ | 原文链接：http://wap.ntpxos.asia/blog/9605859.sHtMl
+
+原标题：架构笔记：海量消息堆积架构处理能力设计
+简介：golang 表格驱动测试完整示例，表格驱动多组输入输出，批量执行测试用例，减少重复代码。
+ | 原文链接：http://wap.ntpxos.asia/blog/3057252.sHtMl
+
+原标题：方案对比：同步调用vs异步消息业务选型
+简介：golang 响应 body 流式返回大数据，http 流式输出数据，边生成边返回，无需在内存组装完整返回结果。
+ | 原文链接：http://wap.ntpxos.asia/blog/3057363.sHtMl
+
+原标题：Git 代码冲突正确处理方式
+简介：golang 漏桶算法实现接口限流，漏桶算法控制请求流出速率，平滑突发流量，削平流量峰值。
+ | 原文链接：http://wap.ntpxos.asia/blog/8505840.sHtMl
+
+原标题：异步异常捕获避免进程崩溃
+简介：golang aes 对称加密解密示例，AES 对称加密解密实现，业务敏感数据加密存储传输。
+ | 原文链接：http://wap.ntpxos.asia/blog/5263737.sHtMl
+
+原标题：Practice：模拟缓存雪崩缓存击穿验证防护策略
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：http://wap.ntpxos.asia/blog/9828071.sHtMl
+
+原标题：golang k8s 滚动更新回滚策略
+简介：golang mysql 慢查询日志程序采集解析，程序读取解析 mysql 慢查询日志，统计慢 SQL 做监控告警。
+ | 原文链接：http://wap.ntpxos.asia/blog/1827061.sHtMl
+
+原标题：快速入门WebSocket，实现简易双向通信demo
+简介：GraphQL 接口查询优化实操，体验 GraphQL 查询方式，按需获取字段，减少冗余数据传输，优化接口请求效率。
+ | 原文链接：http://wap.ntpxos.asia/blog/6484737.sHtMl
+
+原标题：golang http 服务性能优化调参
+简介：golang rsa 签名验签 pem 证书加载，加载 pem 格式密钥证书，rsa 签名与验签完整业务实现。
+ | 原文链接：http://wap.ntpxos.asia/blog/2483926.sHtMl
+
+原标题：golang 限流熔断降级完整示例
+简介：预编译 SQL 防注入实现，使用预编译 SQL 方式，杜绝 SQL 注入风险，提升数据库访问层安全能力。
+ | 原文链接：http://wap.ntpxos.asia/blog/4172515.sHtMl
+
+原标题：开发环境变量配置全平台教程
+简介：golang go work 多模块本地开发，go work 多模块本地同时开发，本地模块互相引用，无需推送仓库。
+ | 原文链接：http://wap.ntpxos.asia/blog/0413626.sHtMl
+
+原标题：golang net/http 超时全套配置
+简介：golang 响应 body 流式返回大数据，http 流式输出数据，边生成边返回，无需在内存组装完整返回结果。
+ | 原文链接：http://wap.ntpxos.asia/blog/1930363.sHtMl
+
+原标题：golang 系统设计防爬虫简单策略
+简介：golang go 泛型约束与类型集合，泛型 type set 约束，限制泛型支持类型，写出安全泛型代码。
+ | 原文链接：http://wap.ntpxos.asia/blog/1828049.sHtMl
+
+原标题：golang k8s secret 加密敏感信息
+简介：文件锁正确使用避免死锁，合理使用文件锁，控制多进程访问同一个文件，规避文件锁死锁现象。
+ | 原文链接：http://wap.ntpxos.asia/blog/6375818.sHtMl
+
+原标题：HelloGitHubPages：部署你的第一个静态博客
+简介：服务健康检查告警监控体系，搭建健康检查加告警体系，服务异常及时推送告警通知运维人员。
+ | 原文链接：http://wap.ntpxos.asia/blog/0718048.sHtMl
+
+原标题：语义化版本依赖管理防错乱
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：http://wap.ntpxos.asia/blog/9717848.sHtMl
+
+原标题：git stash 代码暂存切换分支
+简介：K8s 镜像拉取网络故障修复，排查 K8s 集群镜像拉取网络问题，配置镜像源，恢复镜像正常拉取。
+ | 原文链接：http://wap.ntpxos.asia/blog/4306390.sHtMl
+
+原标题：golang 系统设计压力测试性能测试执行流程
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：http://wap.ntpxos.asia/blog/1838251.sHtMl
+
+原标题：复盘总结：技术方案文档模板架构设计文档
+简介：golang proto 默认值坑点梳理，梳理 Protobuf 默认值坑，零值字段区分未赋值，避免业务逻辑错误。
+ | 原文链接：http://wap.ntpxos.asia/blog/4657372.sHtMl
+
+原标题：优化实践：异步改造同步接口提升吞吐能力
+简介：Redis 热点 key 拆分降低集群压力，拆分访问量极高的热点 Key，分散请求压力，避免 Redis 节点压力过高。
+ | 原文链接：http://wap.ntpxos.asia/blog/1837037.sHtMl
+
+原标题：golang 系统设计依赖漏洞扫描修复流程
+简介：golang os 进程 pid 获取父进程 pid，os.Getpid 获取进程 id，获取父进程 pid，进程间识别。
+ | 原文链接：http://wap.ntpxos.asia/blog/1838148.sHtMl
+
+原标题：方案设计：分布式锁失效风险架构层面规避
+简介：开发测试生产多环境配置区分，讲解三套环境配置分离思路，配置文件隔离，防止开发配置泄露到生产环境。
+ | 原文链接：http://wap.ntpxos.asia/blog/4617948.sHtMl
+
+原标题：方案设计：统一ID生成服务架构对比雪花算法
+简介：golang go 二进制安全 strip 减小体积，strip 剥离二进制调试符号，缩小程序二进制文件体积。
+ | 原文链接：http://wap.ntpxos.asia/blog/4152525.sHtMl
+
+原标题：golang k8s 日志收集 efk 简单架构
+简介：golang sort 搜索查找切片元素，sort.Search 二分查找有序切片，快速定位元素索引位置。
+ | 原文链接：http://wap.ntpxos.asia/blog/1937060.sHtMl
+
+原标题：golang 系统设计 saga 事务补偿模式实现思路
+简介：golang 日志输出 stdout 标准输出规范，容器环境日志输出到 stdout，由容器平台统一采集日志文件。
+ | 原文链接：http://wap.ntpxos.asia/blog/7493038.sHtMl
+
+原标题：golang 系统设计接口向前兼容改造实操
+简介：开源项目本地运行排错完整清单，汇总开源项目拉取后运行失败各类问题，给出排查思路，快速解决本地启动异常。
+ | 原文链接：http://wap.ntpxos.asia/blog/6373627.sHtMl
+
+原标题：复盘总结：系统压测报告模板与分析思路
+简介：golang redis stream 消息队列实战，redis stream 实现可靠消息队列，消费组、ack 确认，消息不丢失。
+ | 原文链接：http://wap.ntpxos.asia/blog/1828141.sHtMl
+
+原标题：golang 系统设计主键 id 选型雪花自增对比
+简介：golang etcd key 监听变更 watch 机制，watch 监听 etcd 键变化，配置变更实时感知，实现配置热更新。
+ | 原文链接：http://wap.ntpxos.asia/blog/1535251.sHtMl
+
+原标题：golang 系统设计缓存基准测试对比方案
+简介：golang go race 竞态检测工具，‑race 检测数据竞争，编译运行检测并发读写数据竞争 bug。
+ | 原文链接：http://wap.ntpxos.asia/blog/5159283.sHtMl
+
+原标题：Troubleshooting：Nginx缓冲区过小大文件上传失败
+简介：golang pprof 线上采集性能数据，线上环境采集 pprof 性能样本，不用停机，分析线上性能问题。
+ | 原文链接：http://wap.ntpxos.asia/blog/1735259.sHtMl
+
+原标题：golang docker compose 完整语法
+简介：服务器 Swap 关闭提升响应速度，关闭服务器 Swap 交换分区，避免内存交换磁盘拖慢程序响应性能。
+ | 原文链接：http://wap.ntpxos.asia/blog/7180705.sHtMl
+
+原标题：运维笔记：磁盘inode耗尽故障排查处理
+简介：golang tcp 四次挥手 go 程序行为，理解 tcp 四次挥手，处理连接关闭、重置、RST 包异常场景。
+ | 原文链接：http://wap.ntpxos.asia/blog/1813515.sHtMl
+
+原标题：golang 系统设计故障应急响应完整流程梳理
+简介：golang rsa 公钥加密私钥解密，rsa 非对称加密，大文件分块加密，处理非对称加密长度限制。
+ | 原文链接：http://wap.ntpxos.asia/blog/8151625.sHtMl
+
+原标题：golang 系统设计熔断算法 hystrix 思路
+简介：JWT 工具封装令牌刷新过期，封装 JWT 工具类，实现令牌生成、校验、过期刷新整套令牌管理逻辑。
+ | 原文链接：http://wap.ntpxos.asia/blog/1823848.sHtMl
+
+原标题：静态资源 404 路径打包修复
+简介：golang gin 中间件执行顺序讲解，理解 Gin 中间件注册顺序，区分前置后置逻辑，规避中间件顺序 bug。
+ | 原文链接：http://wap.ntpxos.asia/blog/5924805.sHtMl
+
+原标题：项目实践：OpenTelemetry链路追踪本地部署实践
+简介：数值 key 浮点匹配异常规避，避免浮点数作为 Redis 等存储的 key，防止精度问题引发 key 匹配失败。
+ | 原文链接：http://wap.ntpxos.asia/blog/1613583.sHtMl
+
+原标题：Docker 容器入门镜像实操教程
+简介：golang go embed 嵌入静态资源文件，使用 go embed 把静态文件编译进二进制，单文件部署携带静态资源。
+ | 原文链接：http://wap.ntpxos.asia/blog/7357126.sHtMl
+
+原标题：复盘总结：微服务改造踩坑经验总结记录
+简介：文件锁正确使用避免死锁，合理使用文件锁，控制多进程访问同一个文件，规避文件锁死锁现象。
+ | 原文链接：http://wap.ntpxos.asia/blog/8581574.sHtMl
+
+三、实战开发｜Practice
+原标题：golang 系统设计单元测试编写原则最佳实践
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://wap.ntpxos.asia/blog/7495704.sHtMl
+
+原标题：从零搭建简单Mock接口服务
+简介：数据库 utf8mb4 支持 emoji 存储，数据库字段设置 utf8mb4 字符集，完整支持 emoji 表情存储入库。
+ | 原文链接：http://wap.ntpxos.asia/blog/1857948.sHtMl
+
+原标题：golang 系统设计日志本地打印线上关闭调试信息
+简介：请求工具封装统一异常处理，对网络请求做二次封装，统一捕获各类请求异常，标准化接口返回格式。
+ | 原文链接：http://wap.ntpxos.asia/blog/4151404.sHtMl
+
+原标题：缓存穿透防护保护数据库
+简介：主干开发团队代码合并策略，讲解主干开发模式，团队代码合并流程，适合高频迭代的团队协作模式。
+ | 原文链接：http://wap.ntpxos.asia/blog/3159537.sHtMl
+
+原标题：前端权限路由动态生成实现
+简介：golang go 时间 time.Timer time.Ticker，定时器与周期定时器，Stop Reset 正确使用，防止资源泄漏。
+ | 原文链接：http://wap.ntpxos.asia/blog/7492415.sHtMl
+
+原标题：CLI 工具进度条交互效果开发
+简介：nodejs 流处理大文件不占内存，使用 Node.js 流处理超大文件，边读边写，不需要全部加载进内存。
+ | 原文链接：http://wap.ntpxos.asia/blog/5265748.sHtMl
+
+原标题：golang consul 健康检查服务注册
+简介：golang goroutine 协程基础实操，Goroutine 基础实操案例，启动协程执行任务，理解轻量级协程特性。
+ | 原文链接：http://wap.ntpxos.asia/blog/2714692.sHtMl
+
+原标题：golang 系统设计分布式配置中心思路
+简介：看懂报错日志快速定位问题，讲解日志阅读方法，解析堆栈信息含义，学会从报错信息中定位代码出错位置。
+ | 原文链接：http://wap.ntpxos.asia/blog/8269161.sHtMl
+
+原标题：零基础理解JSON、XML数据格式处理
+简介：日志切割配置防止日志丢失，配置日志切割轮转策略，日志按大小时间切割，防止日志文件丢失。
+ | 原文链接：http://wap.ntpxos.asia/blog/2611669.sHtMl
+
+原标题：golang 系统设计用户签到统计方案
+简介：golang minio 私有对象存储开发，minio s3 对象存储，bucket 管理，文件上传下载权限设置。
+ | 原文链接：http://wap.ntpxos.asia/blog/9603719.sHtMl
+
+原标题：golang 数据库批量更新性能优化
+简介：golang 跨域处理中间件编写，Gin 跨域中间件开发，处理预检 OPTIONS 请求，解决浏览器跨域报错。
+ | 原文链接：http://wap.ntpxos.asia/blog/9506808.sHtMl
+
+原标题：golang docker 网络模式桥接 host
+简介：golang 工具函数库封装思路，Go 通用工具库封装思路，错误处理、类型转换，业务项目复用工具代码。
+ | 原文链接：http://wap.ntpxos.asia/blog/5842486.sHtMl
+
+原标题：记一次GC频繁，服务CPU持续高负载排查
+简介：golang 限制 multipart 内存大小，设置 MaxMemory，大文件写入磁盘临时文件防止内存暴涨。
+ | 原文链接：http://wap.ntpxos.asia/blog/7492920.sHtMl
+
+原标题：golang http grpc 全链路埋点示例
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：http://wap.ntpxos.asia/blog/6485946.sHtMl
+
+原标题：数值 key 浮点匹配异常规避
+简介：网关超时时间调优后端等待，调大网关向后端转发请求超时时间，给后端业务充足处理时间。
+ | 原文链接：http://wap.ntpxos.asia/blog/9303626.sHtMl
+
+原标题：跨平台 uniapp 多端开发实操
+简介：golang fasthttp 服务开发完整示例，fasthttp 搭建 http 服务，路由、参数读取、响应返回完整业务。
+ | 原文链接：http://wap.ntpxos.asia/blog/8595738.sHtMl
+
+原标题：golang 系统设计唯一索引业务使用场景
+简介：golang 灰度发布流量权重路由实现，根据权重切分流量，部分流量访问新版本服务，实现灰度发布。
+ | 原文链接：http://wap.ntpxos.asia/blog/1804514.sHtMl
+
+原标题：部署复盘：静态站点部署CDN完整流程
+简介：golang math 包常用数学函数，绝对值取整平方根三角函数，业务数学计算工具。
+ | 原文链接：http://wap.ntpxos.asia/blog/4835704.sHtMl
+
+原标题：优化实践：Redis管道、批量命令减少网络往返
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：http://wap.ntpxos.asia/blog/9604915.sHtMl
+
+原标题：golang 系统设计唯一索引业务使用场景
+简介：golang go 并发模式 errgroup 使用，errgroup 结合 context，协程组，任意协程出错整体取消任务。
+ | 原文链接：http://wap.ntpxos.asia/blog/3729360.sHtMl
+
+原标题：golang kafka 重试机制配置实操
+简介：API 大版本不兼容平滑迁移，API 版本迭代不兼容旧接口，设计平滑迁移方案，逐步完成版本切换。
+ | 原文链接：http://wap.ntpxos.asia/blog/0714937.sHtMl
+
+原标题：性能调优：MySQL查询性能优化实战清单
+简介：golang sftp 文件上传下载操作，sftp 协议远程文件上传下载，实现服务器之间文件传输功能。
+ | 原文链接：http://wap.ntpxos.asia/blog/1536149.sHtMl
+
+原标题：异步异常捕获避免进程崩溃
+简介：golang wasm 性能优化与内存管理，wasm 内存分配释放，减少内存拷贝，优化浏览器端性能。
+ | 原文链接：http://wap.ntpxos.asia/blog/3729172.sHtMl
+
+原标题：HTTP 状态码请求头完整梳理
+简介：golang defer 执行顺序与坑点，defer 后进先出，循环内部 defer 陷阱，资源释放正确写法。
+ | 原文链接：http://wap.ntpxos.asia/blog/2826141.sHtMl
+
+原标题：多环境配置中心灵活切换方案
+简介：golang net.Conn 包装自定义连接，包装 net.Conn，统计读写字节，日志打印，超时控制。
+ | 原文链接：http://wap.ntpxos.asia/blog/0415027.sHtMl
+
+原标题：golang 系统设计故障演练简单落地思路方法论
+简介：golang httptest 模拟外部 http 服务，httptest.NewServer 模拟第三方 http 服务，单元测试 mock 外部接口。
+ | 原文链接：http://wap.ntpxos.asia/blog/2646841.sHtMl
+
+原标题：记一次分库分表路由计算错误数据写入错误分片
+简介：golang sql 注入风险规避要点，参数化查询杜绝 sql 注入，禁止字符串拼接 SQL 语句执行。
+ | 原文链接：http://wap.ntpxos.asia/blog/4151290.sHtMl
+
+原标题：入门实践：简易导出导入文件功能实现
+简介：内存泄漏定位分析完整流程，分享内存泄漏排查步骤，定位没有释放的对象，解决内存持续上涨问题。
+ | 原文链接：http://wap.ntpxos.asia/blog/2936171.sHtMl
+
+原标题：分布式 ID 生成器高并发实现
+简介：golang nats jetstream 持久消息队列，nats jetstream 持久化消息，保证消息不丢失，实现可靠消费。
+ | 原文链接：http://wap.ntpxos.asia/blog/7484524.sHtMl
+
+原标题：golang mysql exists in 性能对比
+简介：golang sort 稳定排序 Stable，稳定排序保留相等元素原有顺序，业务需要稳定排序场景。
+ | 原文链接：http://wap.ntpxos.asia/blog/9613928.sHtMl
+
+原标题：异步任务堆积消费能力优化
+简介：golang 系统 IO 阻塞 goroutine 场景，理解系统调用阻塞 M，P 会调度其他 M，掌握 go 调度行为。
+ | 原文链接：http://wap.ntpxos.asia/blog/8504525.sHtMl
+
+原标题：安全笔记：Cookie安全属性SecureHttpOnly
+简介：数值 key 浮点匹配异常规避，避免浮点数作为 Redis 等存储的 key，防止精度问题引发 key 匹配失败。
+ | 原文链接：http://wap.ntpxos.asia/blog/9606835.sHtMl
+
+原标题：设计思考：API网关和BFF职责边界划分
+简介：异步编程 Promise 执行流程解析，拆解异步执行顺序，理解回调与 Promise 差异，理清异步场景下代码执行逻辑。
+ | 原文链接：http://wap.ntpxos.asia/blog/0725030.sHtMl
+
+原标题：实战项目：多实例部署会话一致性验证实践
+简介：rebase 操作防止代码丢失，讲解 rebase 风险点，操作前做好备份，规避错误操作造成代码提交丢失。
+ | 原文链接：http://wap.ntpxos.asia/blog/3058363.sHtMl
+
+原标题：快速入门容器基础概念，理解镜像与容器
+简介：golang goroutine 协程基础实操，Goroutine 基础实操案例，启动协程执行任务，理解轻量级协程特性。
+ | 原文链接：http://wap.ntpxos.asia/blog/0313536.sHtMl
+
+原标题：实战项目：GitSubmodule管理多仓库实践
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：http://wap.ntpxos.asia/blog/0335736.sHtMl
+
+原标题：golang 系统设计单元测试 mock 外部依赖技巧
+简介：SDK 版本兼容线上崩溃修复，处理 SDK 版本升级之后线上崩溃，定位 API 变更，做版本兼容适配改造。
+ | 原文链接：http://wap.ntpxos.asia/blog/3949240.sHtMl
+
+原标题：DevOps：多环境镜像标签版本管理规范
+简介：golang io.Reader io.Writer 接口理解，io 读写接口，各类数据源统一抽象，适配 io 复制函数。
+ | 原文链接：http://wap.ntpxos.asia/blog/8506806.sHtMl
+
+原标题：跨平台 uniapp 多端开发实操
+简介：golang 路径处理 filepath 包规范写法，使用 filepath 处理路径拼接分割，自动适配操作系统路径分隔符。
+ | 原文链接：http://wap.ntpxos.asia/blog/7292817.sHtMl
+
+原标题：踩坑记录：端口被占用导致服务启动失败
+简介：golang tcp 四次挥手 go 程序行为，理解 tcp 四次挥手，处理连接关闭、重置、RST 包异常场景。
+ | 原文链接：http://wap.ntpxos.asia/blog/1591570.sHtMl
+
+四、架构设计｜Architecture
+原标题：开发记录：接口请求日志记录完整中间件实现
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：http://wap.ntpxos.asia/blog/5349147.sHtMl
+
+原标题：Practice：实现批量任务失败断点续跑实践
+简介：容器内存扩容 OOM 被杀死修复，调高容器内存限制，优化程序内存占用，避免程序被 OOM 终止。
+ | 原文链接：http://wap.ntpxos.asia/blog/4160695.sHtMl
+
+原标题：DevOps：多阶段构建Dockerfile最佳实践
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://wap.ntpxos.asia/blog/1936025.sHtMl
+
+原标题：golang github actions 发布 release 包
+简介：缓存基础原理与简单代码实现，讲解缓存设计思路，编写简易缓存逻辑，减少重复计算与重复请求，提升程序响应速度。
+ | 原文链接：http://wap.ntpxos.asia/blog/4869475.sHtMl
+
+原标题：HTTP 状态码请求头完整梳理
+简介：golang mqtt 客户端 go 开发物联网，paho.mqtt.golang 实现 mqtt 客户端，物联网设备消息收发。
+ | 原文链接：http://wap.ntpxos.asia/blog/4158391.sHtMl
+
+原标题：golang 系统设计 webhook 回调接口设计要点
+简介：golang rate 令牌桶限流器源码理解，拆解令牌桶限流核心逻辑，理解令牌生成消耗，掌握限流底层原理。
+ | 原文链接：http://wap.ntpxos.asia/blog/6371700.sHtMl
+
+原标题：golang 系统设计 gob msgpack 序列化对比
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：http://wap.ntpxos.asia/blog/1803578.sHtMl
+
+原标题：WSL 文件权限访问异常修复
+简介：golang hertz 反向代理与负载均衡，hertz 实现反向代理，内置负载均衡，快速搭建网关类服务。
+ | 原文链接：http://wap.ntpxos.asia/blog/0714039.sHtMl
+
+原标题：安全实践：接口错误信息不要暴露内部细节
+简介：golang 定时任务任务持久化存储，定时任务持久化到数据库，服务重启任务不丢失，动态管理任务。
+ | 原文链接：http://wap.ntpxos.asia/blog/5828146.sHtMl
+
+原标题：CDN 缓存刷新获取最新静态资源
+简介：golang testify testify 断言库使用，testify assert require 断言，简化单元测试断言代码。
+ | 原文链接：http://wap.ntpxos.asia/blog/8526726.sHtMl
+
+原标题：正则表达式文本处理实战案例
+简介：golang go list 双向链表使用，container/list 双向链表，频繁增删节点业务场景使用。
+ | 原文链接：http://wap.ntpxos.asia/blog/4147340.sHtMl
+
+原标题：快速入门日志打印与日志分级基础用法
+简介：golang httptest 模拟外部 http 服务，httptest.NewServer 模拟第三方 http 服务，单元测试 mock 外部接口。
+ | 原文链接：http://wap.ntpxos.asia/blog/1839170.sHtMl
+
+原标题：Troubleshoot：跨库关联查询，性能急剧恶化
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：http://wap.ntpxos.asia/blog/5869695.sHtMl
+
+原标题：golang github actions 多平台构建
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：http://wap.ntpxos.asia/blog/0824939.sHtMl
+
+原标题：Practice：手写简易限流组件，计数器、令牌桶实现
+简介：golang go 错误包装 fmt.Errorf % w，使用 % w 包装错误，支持 errors.Is errors.As 判断错误类型。
+ | 原文链接：http://wap.ntpxos.asia/blog/9714035.sHtMl
+
+原标题：golang 日志与链路 ID 关联打印
+简介：axios 二次封装请求拦截处理，对 axios 做二次封装，统一请求拦截响应拦截，处理错误、token 自动刷新。
+ | 原文链接：http://wap.ntpxos.asia/blog/1829392.sHtMl
+
+原标题：golang 系统设计时间字段选型 datetime timestamp
+简介：手写简易 RPC 服务通信原型，手写极简 RPC 原型，理解服务注册、网络传输、方法调用底层逻辑。
+ | 原文链接：http://wap.ntpxos.asia/blog/7492706.sHtMl
+
+原标题：部署复盘：金丝雀发布流量切分实操方案
+简介：YAML 配置文件语法快速上手，讲解 YAML 基础语法、缩进规则，编写项目配置文件，规避语法错误引发程序异常。
+ | 原文链接：http://wap.ntpxos.asia/blog/9606850.sHtMl
+
+?
