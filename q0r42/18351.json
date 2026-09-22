@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang docker compose 依赖启动顺序
+简介：golang ssh 客户端远程命令执行，golang ssh 连接远程服务器，执行 shell 命令，获取命令输出结果。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/41563695.html
+
+原标题：RPC 报文大小上限调优大请求
+简介：golang http3 quic 客户端服务端示例，go 实现 http3 quic 服务端客户端，体验 quic 协议低延迟特性。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/93937039.html
+
+原标题：golang redis 过期 key 监听业务
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/91680035.html
+
+原标题：golang kafka 消费者组原理讲解
+简介：golang go json 序列化自定义字段，json 标签控制字段名称、忽略字段、omitempty 空值忽略。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/79447696.html
+
+原标题：新手向：开源项目本地构建失败通用排查步骤
+简介：nodejs jwt 登录鉴权完整示例，Node 实现 JWT 登录鉴权，登录签发令牌，接口校验令牌身份。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/46236589.html
+
+原标题：golang 系统设计链路追踪核心概念 trace span 讲解
+简介：前端图片懒加载性能优化，实现图片懒加载，页面可视区域才加载图片，减少页面初始网络请求。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/35791436.html
+
+原标题：零基础理解JSON、XML数据格式处理
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/25978033.html
+
+原标题：方案设计：异步解耦业务架构边界识别
+简介：golang json 解析未知动态 json 结构，解析到 map [string] any 处理未知 json，动态读取字段。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/51756702.html
+
+原标题：golang gorm 批量插入性能调优
+简介：golang go xml 解析生成 xml 文档，encoding/xml 解析 xml，结构体标签映射 xml 节点属性。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/58130336.html
+
+原标题：记一次内存Swap被大量使用系统响应缓慢
+简介：golang html 模板渲染简单示例，Go HTML 模板渲染，服务端渲染页面，填充数据输出 HTML 页面。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/60772322.html
+
+原标题：坑点：环境配置被打包进镜像引发安全泄露
+简介：开发生产环境资源路径统一，对齐开发环境与生产环境资源路径，防止本地正常上线后资源找不到。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/03233035.html
+
+原标题：golang 系统设计大文件上传架构
+简介：本地简易配置中心动态管理，搭建轻量本地配置中心，业务动态读取配置，修改配置不重启服务。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/69867550.html
+
+原标题：golang 系统设计读写穿透更新缓存几种方案
+简介：golang go 程序运行时动态修改配置，运行时热加载配置结构体，原子更新保证并发读取安全。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/02456434.html
+
+原标题：踩坑记录：分页逻辑错误造成数据重复输出
+简介：golang cobra 命令行参数配置绑定，cobra 绑定配置文件环境变量命令行参数，多源配置合并。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/33542334.html
+
+原标题：golang redis bitmap 位图统计实现
+简介：golang 僵尸进程处理 go 程序，正确等待子进程退出，避免产生僵尸进程，占用系统进程表。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/26568575.html
+
+原标题：方案设计：分布式分页查询架构难点处理
+简介：golang fuzz corpus 语料库使用，fuzz 语料存储历史输入，回归测试，持续复现曾经触发 bug 输入。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/38991189.html
+
+原标题：多操作系统开发兼容处理
+简介：golang go 模块迁移从 GOPATH 到 GoMod，老项目从 GOPATH 迁移 go mod，解决依赖管理混乱问题。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/47746354.html
+
+原标题：Practice：数据库分表简单实现方案与代码示例
+简介：API 接口调试与异常处理实战，覆盖接口请求、参数组装、错误捕获，提供调试思路，高效定位接口返回异常问题。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/92589913.html
+
+原标题：golang 系统设计 canary 金丝雀部署实操
+简介：golang io.MultiReader MultiWriter 拼接流，多个 reader 拼接，多 writer 同时写入一份数据。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/69368136.html
+
+原标题：golang 优雅处理数据库事务
+简介：rebase 操作防止代码丢失，讲解 rebase 风险点，操作前做好备份，规避错误操作造成代码提交丢失。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/28912805.html
+
+原标题：golang 系统设计参数校验统一处理方案
+简介：golang 负载均衡轮询加权轮询实现，手写负载均衡算法，轮询、加权轮询分发请求到后端节点。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/35347957.html
+
+原标题：坑点：gitrebase操作失误，代码提交丢失
+简介：接口幂等性防重复请求实现，实现接口幂等逻辑，避免重复提交请求产生多条脏数据，保障业务数据安全。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/17127927.html
+
+原标题：方案设计：分布式锁失效风险架构层面规避
+简介：golang 任务失败重试与死信队列，异步任务失败自动重试，超过重试次数进入死信队列人工处理。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/91572794.html
+
+原标题：架构复盘：分表扩容架构平滑迁移思路
+简介：语义化版本依赖管理防错乱，项目依赖遵循语义版本约束，规避依赖自动升级引入不兼容变更。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/52634624.html
+
+原标题：golang 系统设计 traceId 全链路透传完整方案
+简介：数据库分表存储大表优化方案，对超大数据表做分表，拆分数据，降低单表数据量提升查询性能。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/06015734.html
+
+原标题：避坑：ORM框架隐式查询产生大量慢SQL
+简介：golang cgroup 读取容器资源限制，go 程序读取 cgroup，获取容器 cpu 内存限额，适配容器环境。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/95935736.html
+
+原标题：HelloGitWorkflow：理解简单主干开发流程
+简介：golang makefile 多平台编译脚本，makefile 一键交叉编译多平台二进制，打包镜像，执行测试。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/49399589.html
+
+原标题：css 动画性能优化 GPU 加速
+简介：分页逻辑错误数据漏查修复，修复分页查询逻辑漏洞，解决分页漏数据、重复返回数据等业务问题。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/14013816.html
+
+原标题：golang docker 私有仓库搭建使用
+简介：对象存储上传下载权限实操，演示对象存储文件上传、下载、访问权限设置，适配业务文件存储场景。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/83489591.html
+
+原标题：golang 系统设计第三方调用超时重试熔断
+简介：golang go 模板缓存预编译模板，预编译 html 模板，程序启动加载，避免每次请求解析模板损耗性能。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/27139035.html
+
+原标题：快速入门GraphQL基础查询语法示例
+简介：golang go 锁竞争导致 CPU 飙升，识别锁竞争场景，减少锁粒度，优化并发逻辑降低 CPU 开销。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/85834927.html
+
+原标题：线上异常：时间时区问题，定时任务执行偏移
+简介：golang k8s 客户端 client‑go 简单示例，client‑go 操作 k8s 资源，增删改查 pod deployment 等资源对象。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/42571391.html
+
+原标题：golang http 请求重试封装工具
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/96350179.html
+
+原标题：golang mysql 避免 select * 查询
+简介：nestjs 权限守卫鉴权实现方案，使用 Nest 守卫实现接口鉴权，角色权限控制，拦截未授权接口访问。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/16946844.html
+
+原标题：踩坑记录：端口被占用导致服务启动失败
+简介：golang go 程序 CPU 占用高定位步骤，pprof 定位热点函数，分析 CPU 高占用，优化耗时代码逻辑。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/28906676.html
+
+原标题：Practice：手写简易限流组件，计数器、令牌桶实现
+简介：golang 错误栈捕获打印方案，捕获错误完整调用堆栈，线上日志输出堆栈，快速定位错误发生代码位置。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/88656955.html
+
+原标题：性能笔记：服务CPU高负载定位分析完整步骤
+简介：golang slice 切片底层原理与坑点，切片扩容、截取、底层数组共享，规避切片修改互相影响数据。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/29362292.html
+
+原标题：代码格式化工具团队统一风格
+简介：golang nil channel 阻塞特性，nil channel 读写永久阻塞，理解 nil channel 行为做逻辑控制。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/16027946.html
+
+原标题：golang 系统设计开源 pr 评审合并流程实操
+简介：golang net.Listener 包装自定义监听器，包装 Listener 做连接计数、连接拦截，扩展网络能力。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/61894685.html
+
+原标题：安全笔记：Git仓库密钥硬编码泄露处理方案
+简介：nestjs 全局返回格式统一处理，Nest 全局拦截器统一包装接口返回数据，对外输出标准化响应格式。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/24134617.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang k8s 网络策略网络隔离设置
+简介：项目依赖安全扫描漏洞防范，扫描项目第三方依赖包，修复存在安全漏洞依赖，防范供应链攻击。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/28249037.html
+
+原标题：css 变量主题切换方案实现
+简介：golang bytes.Buffer 字节缓冲区使用，bytes.Buffer 字节内存缓冲区，拼接字节，避免频繁内存分配。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/48579178.html
+
+原标题：golang 系统设计开源 issue 处理回复沟通技巧
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/71805694.html
+
+原标题：golang etcd 分布式锁实现原理
+简介：golang go select 多路等待 channel，select 等待多个 channel，default 非阻塞，超时等待 channel。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/45346857.html
+
+原标题：实战：搭建日志收集分析简易完整演示环境
+简介：golang ioutil 已废弃替换方案，ioutil 废弃之后替换为 os io 包函数，更新旧项目代码。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/50453479.html
+
+原标题：golang 系统设计分布式锁红锁优缺点梳理
+简介：golang sort 搜索查找切片元素，sort.Search 二分查找有序切片，快速定位元素索引位置。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/49217898.html
+
+原标题：golang 系统设计混沌测试简单场景模拟实现
+简介：golang k8s secret 敏感配置加载，加载 k8s secret 存储密钥密码，敏感信息不存放配置文件。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/96985857.html
+
+原标题：GET POST 接口请求参数处理
+简介：axios 二次封装请求拦截处理，对 axios 做二次封装，统一请求拦截响应拦截，处理错误、token 自动刷新。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/61550351.html
+
+原标题：多版本开发环境共存配置
+简介：多操作系统开发兼容处理，解决不同系统路径、换行符、权限差异，保证项目跨平台正常运行。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/38450257.html
+
+原标题：golang 系统设计消息大小限制业务处理方案
+简介：golang redis 事务 multi exec 使用，Redis 事务 multi exec 实现批量命令原子执行，理解 redis 事务隔离特性。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/82013846.html
+
+原标题：坑点：缓存穿透，大量无效请求打穿数据库
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/61661280.html
+
+原标题：golang redis 位图用户签到统计
+简介：golang go url url.Values 参数编码，url.Values 构建 url 查询参数，自动处理参数 url 编码。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/13671380.html
+
+原标题：踩坑：重试逻辑未做幂等，重复生成业务数据
+简介：数值类型溢出错乱问题修复，选择合适数值存储类型，处理数值溢出，避免数据存储错乱结果异常。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/49269734.html
+
+原标题：安全复盘：定时任务权限过大风险管控
+简介：golang ip2regionIP 地址解析实战，集成 ip2region 库，根据 IP 解析归属地城市，实现 IP 地域解析。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/51674582.html
+
+原标题：golang 系统设计 webhook 回调处理架构
+简介：golang strings.Builder 字符串高效拼接，strings.Builder 做字符串拼接，比 += 性能更高，减少内存拷贝。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/92712746.html
+
+原标题：golang 系统设计配置多环境隔离方案落地
+简介：golang context 包标准用法规范，context 传递请求元数据、超时、取消，函数第一个参数传入 ctx。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/63605846.html
+
+原标题：golang 协程 panic 捕获防止崩溃
+简介：golang GC 调优 GOGC 参数调整，调整 GOGC 阈值，控制 GC 触发时机，权衡内存占用与 CPU 开销。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/29057024.html
+
+原标题：golang redis 发布订阅简单示例
+简介：golang sync.WaitGroup 协程等待控制，WaitGroup 控制一组协程等待全部执行完成，完成批量协程任务调度。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/36191579.html
+
+原标题：限流窗口绕过漏洞修复方案
+简介：golang go 程序版本号内置编译注入，编译时注入 git commit 版本号，程序运行输出版本便于排查。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/61703615.html
+
+原标题：效率笔记：提升开发效率shell脚本小工具合集
+简介：GitHub Markdown 文档语法汇总，整理 Markdown 常用语法，编写仓库 README、文档，提升开源项目文档排版质量。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/30491807.html
+
+原标题：调优方案：Nginx性能参数调优高并发配置
+简介：Git 分支管理多人协作实战教程，详解分支创建、合并、冲突处理，适配团队开发场景，规范多人协同代码工作流。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/74915817.html
+
+原标题：分布式 ID 生成器高并发实现
+简介：golang 表格驱动测试完整示例，表格驱动多组输入输出，批量执行测试用例，减少重复代码。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/52613914.html
+
+原标题：部署实践：多实例服务部署无状态改造
+简介：golang net/http 超时全套配置，完整配置 Go HTTP 服务读写空闲超时，全方位防止请求挂住。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/29472515.html
+
+原标题：golang es 映射 mapping 设计避坑
+简介：前端骨架屏提升页面体验，实现页面骨架屏，数据未加载完成展示占位，优化页面白屏感知体验。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/15235141.html
+
+原标题：安全复盘：CSRF跨站请求伪造防护配置
+简介：golang kitex 字节微服务框架入门，kitex 开发 rpc 微服务，代码生成，服务注册发现完整流程。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/63834037.html
+
+原标题：数据库索引重建提升查询速度
+简介：golang gorm 批量插入性能调优，GORM 批量插入优化，调整批次大小，提升大量数据插入数据库速度。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/85068061.html
+
+原标题：golang 系统设计网关灰度流量切分简单方案
+简介：golang 命令行交互 cobra 开发 cli，cobra 库开发功能完善命令行工具，子命令参数标志解析。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/85058471.html
+
+原标题：golang mysql innodb 事务隔离级别
+简介：golang 命令行交互 cobra 开发 cli，cobra 库开发功能完善命令行工具，子命令参数标志解析。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/96167131.html
+
+原标题：RPC 报文大小上限调优大请求
+简介：golang go get 升级降级依赖版本，go get 指定版本升级降级依赖包，管理第三方库版本。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/30794838.html
+
+原标题：golang 系统设计 git 分支流程 gitflow 实操
+简介：golang go 调度器 GMP 模型通俗讲解，拆解 GMP 模型，理解 goroutine M P 调度原理，看懂调度状态。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/61994704.html
+
+原标题：Security：业务操作审计日志安全留存
+简介：golang go regexp 正则预编译，regexp.MustCompile 预编译正则，不要循环内部编译正则，节省 CPU。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/85162484.html
+
+原标题：坑点：限流计数器重置时机错误，绕过限流规则
+简介：日志敏感信息脱敏泄露防护，日志打印时自动脱敏手机号身份证，避免日志输出泄露用户隐私数据。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/30726944.html
+
+原标题：golang 系统设计 api 网关核心能力完整梳理
+简介：前端水印防信息泄露实现，实现网页水印功能，页面叠加用户信息水印，防止页面截图信息外泄。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/30794735.html
+
+原标题：golang 系统设计版本号语义化规范讲解
+简介：golang 进程信号捕获 SIGUSR 自定义信号，捕获用户自定义信号，实现线上不重启触发调试、日志切换。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/29303928.html
+
+原标题：golang redis 批量 pipeline 实践
+简介：golang sort 切片排序自定义 less，sort.Slice 切片快速排序，自定义 less 函数实现业务排序。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/42606968.html
+
+原标题：零基础理解版本控制核心概念与工作流
+简介：MySQL 慢查询索引优化实战，抓取慢查询 SQL，分析执行计划，新增或者调整索引，提升 SQL 执行速度。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/17202624.html
+
+原标题：坑点：版本号语义化理解错误依赖版本错乱
+简介：内网测试服务搭建团队调试，配置本地服务内网可访问，团队成员能够访问调试，方便前后端联调与内部演示。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/96161514.html
+
+原标题：设计思考：缓存分层架构设计与失效处理策略
+简介：golang loki 日志收集 go 服务集成，日志输出适配 loki，标签携带 traceId，日志集中检索排查问题。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/42815259.html
+
+原标题：方案设计：统一错误处理架构全链路方案
+简介：golang strings.Builder 字符串高效拼接，strings.Builder 做字符串拼接，比 += 性能更高，减少内存拷贝。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/29505835.html
+
+原标题：golang 系统设计日志系统架构思路
+简介：golang go 模板缓存预编译模板，预编译 html 模板，程序启动加载，避免每次请求解析模板损耗性能。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/52623735.html
+
+三、实战开发｜Practice
+原标题：golang 系统设计 api 网关核心能力完整梳理
+简介：golang hystrix 模式简易熔断实现，简易熔断组件，错误率达到阈值触发熔断，快速失败保护下游。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/30050382.html
+
+原标题：踩坑：环境变量未生效导致线上配置错乱
+简介：golang lru 缓存淘汰算法编写，手写 LRU 缓存淘汰算法，实现本地缓存，淘汰最久未使用数据。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/07572818.html
+
+原标题：Debug：DNS缓存TTL设置不当服务切换无法生效
+简介：golang go 无锁并发编程技巧，原子操作 sync/atomic，简单场景替换锁，提升并发性能。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/41835240.html
+
+原标题：程序性能指标 CPU 内存监控
+简介：golang init 函数合理使用边界，少用 init，优先显式调用初始化，便于控制初始化时机。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/21615130.html
+
+原标题：开发记录：长连接连接管理自动清理僵死连接
+简介：golang 开发环境快速搭建指南，快速完成 Golang 开发环境配置，工具链安装，环境变量设置，准备开发。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/41502924.html
+
+原标题：实践：灰度流量切分简易实现方案
+简介：nodejs 接口限流防刷代码实现，Node 层实现接口限流，限制 IP 访问频次，防护接口被恶意高频调用。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/47462736.html
+
+原标题：Hands‑on：简易频率统计组件Redis实现
+简介：WSL 内存上限限制防止资源耗尽，修改 WSL 内存上限配置，避免 WSL 占用主机大量内存资源。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/96058480.html
+
+原标题：golang redis 缓存击穿防护实现
+简介：图片上传预览格式大小处理，实现图片上传接口，校验文件格式、大小，完成上传后预览处理。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/30480403.html
+
+原标题：零基础理解HTTP常用请求头与状态码
+简介：golang 表格驱动测试完整示例，表格驱动多组输入输出，批量执行测试用例，减少重复代码。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/18394736.html
+
+原标题：架构笔记：高并发系统核心设计思路总结
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/95341491.html
+
+原标题：前端错误监控上报系统搭建
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/63836869.html
+
+原标题：记一次GC频繁，服务CPU持续高负载排查
+简介：系统字符集统一乱码修复，统一数据库、程序、操作系统字符集，解决中文乱码显示异常问题。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/27463479.html
+
+原标题：golang 系统设计请求签名校验完整方案
+简介：golang 重试退避机制代码实现，Go 实现请求重试与指数退避，处理临时故障，提升调用稳定性。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/65614795.html
+
+原标题：无用对象回收抑制内存上涨
+简介：依赖版本冲突兼容修复方案，定位依赖版本冲突根源，通过版本约束、替换包，解决版本不兼容运行报错。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/52615846.html
+
+原标题：方案对比：同步事务vs事务消息最终一致性
+简介：golang 分表跨表 join 查询处理方案，分表后跨分片关联查询解决方案，业务层聚合代替数据库 join。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/20062817.html
+
+原标题：Architecture：CI/CD流水线架构完整设计思考
+简介：golang 压缩 zip 文件生成解压，golang 实现 zip 压缩打包，解压 zip 归档文件，处理批量文件归档。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/85168069.html
+
+原标题：Practice：实现文件监控自动重启开发服务工具
+简介：golang csv 百万级数据导入数据库，流式读取 csv 分批写入数据库，避免一次性加载全部数据。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/96160695.html
+
+原标题：golang consul 服务发现简单示例
+简介：内存泄漏定位分析完整流程，分享内存泄漏排查步骤，定位没有释放的对象，解决内存持续上涨问题。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/29351625.html
+
+原标题：入门实战：搭建简易静态网页项目
+简介：golang 模糊测试 go fuzz 基础编写，Fuzz 测试函数，自动生成随机输入，发现代码崩溃 panic。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/65240281.html
+
+原标题：golang ci 流水线自动部署 k8s 示例
+简介：golang 分库分表简单路由实现，简易分表路由逻辑实现，根据分片 key 计算分片位置，数据路由写入。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/29179584.html
+
+原标题：方案设计：异步解耦业务架构边界识别
+简介：消息队列重复消费业务处理，实现消息消费幂等，处理重复投递消息，保证多次消费业务结果一致。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/18573695.html
+
+原标题：vue pinia 状态管理实战教程
+简介：golang tcp keepalive 参数程序配置，go 程序设置 tcp keepalive，操作系统 tcp 保活参数，清理僵死连接。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/29392808.html
+
+原标题：golang 接口返回统一封装工具
+简介：golang 大文件读取内存优化，Go 流式读取大文件，分块处理，避免大文件一次性加载全部到内存。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/18230392.html
+
+原标题：Security：Web常见安全漏洞原理与修复清单
+简介：WSL 搭建 Windows Linux 开发环境，配置 WSL 环境，在 Windows 系统使用 Linux 工具链，适配 Linux 开发项目。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/51503806.html
+
+原标题：golang k8s 日志收集 efk 简单架构
+简介：新手参与开源社区贡献指南，介绍开源社区基础规则，讲解阅读 issue、提交 PR 流程，指导开发者参与开源贡献。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/47135702.html
+
+原标题：golang etcd watch 监听配置变更
+简介：golang pprof 线上采集性能数据，线上环境采集 pprof 性能样本，不用停机，分析线上性能问题。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/84502471.html
+
+原标题：nodejs 日志轮转生产环境配置
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/70462469.html
+
+原标题：排错：容器OOM被杀死，日志看不到任何输出
+简介：golang 灰度发布流量权重路由实现，根据权重切分流量，部分流量访问新版本服务，实现灰度发布。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/84802579.html
+
+原标题：记一次限流组件误配置把正常用户拦截
+简介：golang goreleaser 自动版本发布打包，goreleaser 自动化打包发布，生成多平台二进制归档文件。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/83682302.html
+
+原标题：编译打包产物依赖分析解读
+简介：服务健康检查告警监控体系，搭建健康检查加告警体系，服务异常及时推送告警通知运维人员。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/30616836.html
+
+原标题：入门实战：搭建简易静态网页项目
+简介：golang goroutine 池任务调度，实现 goroutine 池，复用协程，频繁任务场景减少协程创建销毁开销。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/41392703.html
+
+原标题：Troubleshoot：跨库关联查询，性能急剧恶化
+简介：golang trace 工具采集 go 程序执行轨迹，go trace 采集程序完整调度轨迹，分析协程调度阻塞问题。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/70360257.html
+
+原标题：golang 系统设计一致性哈希原理讲解
+简介：nodejs 全局异常捕获进程防护，捕获未捕获异常与 Promise 拒绝，尽量保护进程不因为异常直接退出。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/86951777.html
+
+原标题：golang ci 流水线环境变量管理方案
+简介：golang 自定义 http round tripper，封装 http 客户端拦截，实现请求日志、签名、重试统一处理逻辑。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/87088574.html
+
+原标题：golang 系统设计结构化日志字段规范约定
+简介：golang sync.Once 只执行一次，sync.Once 做单例初始化，保证代码只执行一次，并发安全。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/65967680.html
+
+原标题：移动端适配 rem vw 方案对比
+简介：服务熔断防止故障级联传播，实现服务熔断逻辑，下游故障时快速失败，阻止故障向上游链式扩散。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/29356253.html
+
+原标题：ServiceWorker 缓存页面更新清理
+简介：golang make new 关键字使用区别，分清 new 与 make 适用类型，正确初始化切片 map 通道，杜绝 nil 引发 panic。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/71904847.html
+
+原标题：golang cpu pprof 性能分析实操
+简介：golang slice 切片底层原理与坑点，切片扩容、截取、底层数组共享，规避切片修改互相影响数据。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/42625257.html
+
+原标题：调优方案：gzip压缩开启降低网络传输体积
+简介：分布式 ID 生成器高并发实现，实现高性能分布式 ID 生成器，适配高并发业务，生成全局唯一 ID。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/87249280.html
+
+原标题：磁盘 inode 耗尽文件创建失败
+简介：golang http client 连接池调优，调优 Go HTTP Client 连接池参数，复用 TCP 连接，减少连接创建开销。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/96059172.html
+
+四、架构设计｜Architecture
+原标题：golang kafka 消息丢失重复消费
+简介：程序性能指标 CPU 内存监控，讲解基础性能指标含义，简单实现监控采集，初步定位程序运行性能瓶颈。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/53795857.html
+
+原标题：golang 系统设计消息可靠性投递实现
+简介：预编译 SQL 防注入实现，使用预编译 SQL 方式，杜绝 SQL 注入风险，提升数据库访问层安全能力。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/29303813.html
+
+原标题：golang 系统设计单元测试表驱动测试 table‑driven
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/18510202.html
+
+原标题：DevOps：WSL2生产环境使用风险提示
+简介：golang http client 全局变量复用，http Client 不要每次请求新建，复用 Transport 提升性能。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/97034146.html
+
+原标题：golang proto 默认值坑点梳理
+简介：golang oss 签名 URL 临时访问，生成 oss 临时签名 url，限时访问私有文件，保障文件访问安全可控。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/04802547.html
+
+原标题：开源项目本地运行排错完整清单
+简介：SSH 密钥配置 GitHub 免密登录，分步生成配置 SSH 密钥，实现 GitHub 免密推送拉取，免去重复输入账号密码的麻烦。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/79470366.html
+
+原标题：css 动画性能优化 GPU 加速
+简介：golang grafana 面板 go 业务指标可视化，prometheus 指标对接 grafana，配置监控面板可视化业务状态。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/96700377.html
+
+原标题：golang redis pipeline 批量操作
+简介：数据库连接及时关闭连接泄漏，确保数据库连接使用完毕释放归还连接池，杜绝连接泄漏耗尽连接。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/70469255.html
+
+原标题：golang k8s helm chart 简单编写
+简介：nodejs 日志轮转生产环境配置，配置 Node 日志轮转切割，防止日志文件无限变大，适配生产环境。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/43682571.html
+
+原标题：golang 系统设计排行榜几种实现
+简介：重复提交幂等防护再次讲解，梳理前端重复点击、网络重试场景，落地接口幂等，杜绝重复业务。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/59258815.html
+
+原标题：坑点：缓存穿透，大量无效请求打穿数据库
+简介：Docker 多阶段构建镜像瘦身，使用 Docker 多阶段构建，剔除编译阶段依赖，产出体积更小运行镜像。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/27741247.html
+
+原标题：部署复盘：配置热更新不用重启服务方案
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/72791470.html
+
+原标题：golang 系统设计 git 钩子自动化校验实现
+简介：golang uuid 生成多种版本实现，生成 uuid v1 v4，生成唯一标识，业务用于单据编号场景。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/30358022.html
+
+原标题：新手向：配置项目eslint/prettier代码格式化
+简介：布隆过滤器误判问题修正，调整布隆过滤器参数，降低误判概率，保证业务去重逻辑准确。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/72694735.html
+
+原标题：坑点：缓存过期策略不当引发业务异常
+简介：golang 配置中心 apollo go 客户端，apollo go sdk 读取配置，配置变更自动热更新无需重启服务。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/53517713.html
+
+原标题：服务健康检查监控接口开发
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/37034705.html
+
+原标题：新手向：开源项目依赖安装失败排查
+简介：golang redis lua 脚本原子操作，使用 Lua 脚本实现原子逻辑，减少网络往返，保障多命令原子执行。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/93568812.html
+
+原标题：golang 系统设计代码安全审计简单思路
+简介：语义化版本依赖管理防错乱，项目依赖遵循语义版本约束，规避依赖自动升级引入不兼容变更。
+ | 原文链接：http://www.blog.vfcbl.cn/obpoc/37272592.html
+
+?
