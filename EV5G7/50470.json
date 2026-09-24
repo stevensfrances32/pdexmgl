@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 系统设计联合索引设计避坑要点
+简介：golang io.LimitReader 限制读取字节数，LimitReader 限制最大读取，防止读取超大数据。
+ | 原文链接：m.phatnj.asia/Article/details/2679801.sHtML
+
+原标题：OpenAPI 自动接口文档生成
+简介：golang context 上下文传参讲解，讲解 Context 使用场景，传递元数据、控制协程超时取消，规范协程控制。
+ | 原文链接：m.phatnj.asia/Article/details/8212355.sHtML
+
+原标题：golang 分布式锁 redis 实现
+简介：golang go test 单元测试命令参数详解，gotest 参数覆盖率，指定测试用例，跳过测试，单元测试命令实操。
+ | 原文链接：m.phatnj.asia/Article/details/5262302.sHtML
+
+原标题：轻量 API 后端接口服务快速开发
+简介：nodejs jwt 登录鉴权完整示例，Node 实现 JWT 登录鉴权，登录签发令牌，接口校验令牌身份。
+ | 原文链接：m.phatnj.asia/Article/details/9190705.sHtML
+
+原标题：部署复盘：回滚策略，线上故障快速回退
+简介：SDK 版本兼容线上崩溃修复，处理 SDK 版本升级之后线上崩溃，定位 API 变更，做版本兼容适配改造。
+ | 原文链接：m.phatnj.asia/Article/details/7590304.sHtML
+
+原标题：运维笔记：服务器Swap分区调优生产实践
+简介：golang cgo 内存管理 C 与 Go 内存，区分 Go 内存 C 堆内存，防止 cgo 内存泄漏，正确释放 C 内存。
+ | 原文链接：m.phatnj.asia/Article/details/1828059.sHtML
+
+原标题：Issue：文件句柄耗尽，服务缓慢卡死复盘
+简介：golang go 随机数安全与非安全，math/rand 伪随机与 crypto/rand 密码学安全随机，区分业务场景。
+ | 原文链接：m.phatnj.asia/Article/details/6099211.sHtML
+
+原标题：Hands‑on：简易代理服务器开发实践
+简介：golang channel 关闭规则与坑点，关闭已经关闭 channel 会 panic，判断 channel 是否关闭正确写法。
+ | 原文链接：m.phatnj.asia/Article/details/2042515.sHtML
+
+原标题：坑点：Git工作区换行符CRLF/LF跨平台坑
+简介：golang redis bloom 布隆过滤器 go‑redis，go‑redis 布隆过滤器，海量数据判断是否存在，减少数据库查询。
+ | 原文链接：m.phatnj.asia/Article/details/1729282.sHtML
+
+原标题：安全笔记：HTTPSTLS配置安全加固实践
+简介：golang 配置热更新不重启服务，实现配置热加载，监听配置变更，更新内存配置，无需重启服务实例。
+ | 原文链接：m.phatnj.asia/Article/details/4172585.sHtML
+
+原标题：golang 系统设计日志架构采集存储检索完整链路
+简介：golang go 项目 CI github actions 配置，github actions 实现 go 项目 ci，自动测试、代码检查、编译打包镜像。
+ | 原文链接：m.phatnj.asia/Article/details/3046360.sHtML
+
+原标题：golang 系统设计短信发送限流降级
+简介：golang go 程序抢占调度理解，理解 go 抢占式调度原理，长循环阻塞调度，造成协程调度延迟。
+ | 原文链接：m.phatnj.asia/Article/details/8191714.sHtML
+
+原标题：golang 系统设计 api 网关核心能力完整梳理
+简介：全量回归测试提升代码质量，搭建全量回归测试集，版本发布执行回归测试，避免迭代引入旧 bug。
+ | 原文链接：m.phatnj.asia/Article/details/5216259.sHtML
+
+原标题：文件分片上传断点续传功能
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：m.phatnj.asia/Article/details/9605871.sHtML
+
+原标题：定时任务重复执行分布式锁
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：m.phatnj.asia/Article/details/1580559.sHtML
+
+原标题：golang 系统设计版本号语义化规范讲解
+简介：golang strings 常用函数业务实战，字符串分割替换包含判断前缀后缀，掌握 strings 包高频函数。
+ | 原文链接：m.phatnj.asia/Article/details/9945349.sHtML
+
+原标题：golang 系统设计网关 ssl 证书配置更新实操
+简介：多实例部署 Session 共享方案，多服务实例部署场景，实现 Session 共享，保证用户登录状态跨实例生效。
+ | 原文链接：m.phatnj.asia/Article/details/0932535.sHtML
+
+原标题：容器内存扩容 OOM 被杀死修复
+简介：golang http 重定向策略自定义，CheckRedirect 自定义重定向逻辑，限制重定向次数，防止死循环。
+ | 原文链接：m.phatnj.asia/Article/details/1524038.sHtML
+
+原标题：golang 系统设计缓存过期时间设置原则梳理
+简介：文件监控服务自动重启开发，监控项目文件变更，代码修改自动重启服务，提升本地开发调试效率。
+ | 原文链接：m.phatnj.asia/Article/details/9602826.sHtML
+
+原标题：golang 系统设计异步化改造业务流程思路
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：m.phatnj.asia/Article/details/0716960.sHtML
+
+原标题：golang 系统设计高可用服务架构梳理
+简介：golang 文件句柄耗尽排查处理，统计进程打开文件句柄，找到未关闭文件，修复句柄泄漏问题。
+ | 原文链接：m.phatnj.asia/Article/details/7413038.sHtML
+
+原标题：性能复盘：锁等待严重业务逻辑优化记录
+简介：golang 分布式锁防死锁实现要点，锁超时、续期、锁持有者校验，避免锁死锁，保障分布式锁可靠性。
+ | 原文链接：m.phatnj.asia/Article/details/4162493.sHtML
+
+原标题：golang 系统设计雪花算法 id 原理剖析
+简介：批量数据处理脚本编写技巧，编写脚本批量处理大量业务数据，循环处理、分批执行，提升数据处理效率。
+ | 原文链接：m.phatnj.asia/Article/details/4079593.sHtML
+
+原标题：开发记录：数据库悲观锁乐观锁业务场景实践
+简介：golang proto 可选字段处理方案，protobuf 可选字段正确判断，区分未赋值与零值，业务逻辑不出现偏差。
+ | 原文链接：m.phatnj.asia/Article/details/6379586.sHtML
+
+原标题：golang redis stream 消息队列实践
+简介：TCP 长连接参数优化 TIME_WAIT，调整 TCP 内核参数，优化长连接，减少大量 TIME_WAIT 连接占用资源。
+ | 原文链接：m.phatnj.asia/Article/details/4157466.sHtML
+
+原标题：文件句柄上限调整上传随机失败
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：m.phatnj.asia/Article/details/7402948.sHtML
+
+原标题：golang 大文件读取内存优化
+简介：golang redis 事务 multi exec 使用，Redis 事务 multi exec 实现批量命令原子执行，理解 redis 事务隔离特性。
+ | 原文链接：m.phatnj.asia/Article/details/7402926.sHtML
+
+原标题：OAuth2 第三方登录服务搭建
+简介：Git 仓库瘦身加快克隆下载速度，清理 Git 仓库历史大文件，缩减仓库体积，提升克隆拉取仓库速度。
+ | 原文链接：m.phatnj.asia/Article/details/9413527.sHtML
+
+原标题：全平台系统环境变量配置
+简介：WebSocket 聊天室实时通讯开发，基于 WebSocket 搭建简易聊天室，实现多人消息广播实时聊天效果。
+ | 原文链接：m.phatnj.asia/Article/details/5181715.sHtML
+
+原标题：坑点：gitrebase操作失误，代码提交丢失
+简介：golang sort 搜索查找切片元素，sort.Search 二分查找有序切片，快速定位元素索引位置。
+ | 原文链接：m.phatnj.asia/Article/details/9601516.sHtML
+
+原标题：静态资源 404 路径打包修复
+简介：后端登录鉴权模块完整开发，实现完整登录模块，包含账号校验、令牌发放、接口鉴权整套能力。
+ | 原文链接：m.phatnj.asia/Article/details/3174607.sHtML
+
+原标题：golang redis hyperloglog 基数统计
+简介：golang go 程序容器资源 requests limits，设置容器 cpu 内存配额，防止实例抢占集群资源，稳定调度。
+ | 原文链接：m.phatnj.asia/Article/details/2935027.sHtML
+
+原标题：优化实践：接口返回字段裁剪减少报文大小
+简介：浏览器缓存强制刷新方案，设置 HTTP 缓存头，处理浏览器缓存旧静态资源，让用户加载更新后的页面。
+ | 原文链接：m.phatnj.asia/Article/details/0716748.sHtML
+
+原标题：golang docker 部署 mongodb 开发环境
+简介：磁盘 inode 耗尽文件创建失败，排查磁盘 inode 占用，清理大量小文件，恢复文件创建能力。
+ | 原文链接：m.phatnj.asia/Article/details/4150182.sHtML
+
+原标题：service‑worker 离线缓存实践
+简介：golang go‑pg postgres 客户端实操，go‑pg 操作 PostgreSQL 数据库，CRUD 关联查询业务开发。
+ | 原文链接：m.phatnj.asia/Article/details/3939955.sHtML
+
+原标题：golang 系统设计日志检索排查线上问题实操技巧
+简介：golang yaml 解析配置加载实操，Go 解析 YAML 配置文件，读取配置参数，驱动业务运行。
+ | 原文链接：m.phatnj.asia/Article/details/1425795.sHtML
+
+原标题：golang k8s configmap secret 配置
+简介：golang sftp 文件上传下载操作，sftp 协议远程文件上传下载，实现服务器之间文件传输功能。
+ | 原文链接：m.phatnj.asia/Article/details/8506858.sHtML
+
+原标题：前端虚拟列表大数据渲染优化
+简介：前后端会话登录状态持久化，实现登录状态持久存储，重启服务登录状态不丢失，保障会话稳定性。
+ | 原文链接：m.phatnj.asia/Article/details/5269414.sHtML
+
+原标题：调优方案：gzip压缩开启降低网络传输体积
+简介：golang 数据库连接池参数调优详解，最大连接空闲连接最大生命周期，结合业务合理配置避免资源浪费。
+ | 原文链接：m.phatnj.asia/Article/details/6484636.sHtML
+
+原标题：golang kafka 死信队列业务落地
+简介：golang icmp ping 程序实现，go 实现 ping 工具发送 icmp 报文，检测网络连通性。
+ | 原文链接：m.phatnj.asia/Article/details/2536736.sHtML
+
+
+二、踩坑排错｜Troubleshooting
+原标题：设计思考：防雪崩，系统过载保护架构设计
+简介：golang rsa 非对称加密签名验签，RSA 非对称加密与签名验签，实现非对称安全通信。
+ | 原文链接：m.phatnj.asia/Article/details/0616950.sHtML
+
+原标题：实践：实现Redis分布式锁完整可运行代码
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：m.phatnj.asia/Article/details/5261706.sHtML
+
+原标题：golang mysql 连接泄漏检测方法
+简介：golang nacos go 客户端配置服务发现，nacos‑go 对接 nacos，配置管理、微服务注册发现。
+ | 原文链接：m.phatnj.asia/Article/details/1505735.sHtML
+
+原标题：线上异常：时间时区问题，定时任务执行偏移
+简介：golang go 程序守护进程实现思路，go 程序不做 daemon 化，依靠 systemd pm2 k8s 实现进程守护。
+ | 原文链接：m.phatnj.asia/Article/details/1994636.sHtML
+
+原标题：Practice：模拟主从延迟业务兼容方案实践
+简介：golang 定时任务 cron 使用指南，Go 使用 Cron 库实现定时任务，配置 corn 表达式调度业务任务。
+ | 原文链接：m.phatnj.asia/Article/details/8506029.sHtML
+
+原标题：数值 key 浮点匹配异常规避
+简介：golang gorm 原生 SQL 执行处理，复杂场景执行原生 SQL，处理返回结果集，兼顾性能与灵活性。
+ | 原文链接：m.phatnj.asia/Article/details/3047257.sHtML
+
+原标题：Security：文件路径穿越漏洞完整防护
+简介：golang jwt jwk 公钥验证令牌，使用 jwk 公钥校验 jwt，非对称方式签发校验令牌，提升安全性。
+ | 原文链接：m.phatnj.asia/Article/details/5292803.sHtML
+
+原标题：golang net/http 超时全套配置
+简介：前端 pdf 预览渲染方案对比，对比前端 PDF 预览库，分析性能、兼容性，给出业务选型参考。
+ | 原文链接：m.phatnj.asia/Article/details/5507939.sHtML
+
+原标题：golang redis 热点 key 业务规避
+简介：golang go mod vendor 本地依赖导出，导出 vendor 目录，离线环境编译项目，无需访问外网拉依赖。
+ | 原文链接：m.phatnj.asia/Article/details/4269406.sHtML
+
+原标题：golang nginx 反向代理 go 服务配置
+简介：golang go 容器 heap 堆实现优先队列，实现 heap 接口，构建优先队列，任务优先级调度。
+ | 原文链接：m.phatnj.asia/Article/details/6382706.sHtML
+
+原标题：golang 系统设计链路追踪架构简单讲解
+简介：golang mysql 慢查询日志程序采集解析，程序读取解析 mysql 慢查询日志，统计慢 SQL 做监控告警。
+ | 原文链接：m.phatnj.asia/Article/details/1839192.sHtML
+
+原标题：golang 系统设计错误码体系完整设计
+简介：对象存储上传下载权限实操，演示对象存储文件上传、下载、访问权限设置，适配业务文件存储场景。
+ | 原文链接：m.phatnj.asia/Article/details/2847140.sHtML
+
+原标题：golang 系统设计容器镜像安全加固要点
+简介：分布式 ID 全局唯一生成方案，讲解分布式 ID 生成思路，实现全局唯一 ID，满足分布式系统主键生成需求。
+ | 原文链接：m.phatnj.asia/Article/details/2961403.sHtML
+
+原标题：线上故障：慢查询拖垮整个数据库服务
+简介：文件句柄上限调整上传随机失败，调高系统文件句柄上限，解决高并发上传场景随机打开文件失败。
+ | 原文链接：m.phatnj.asia/Article/details/8480685.sHtML
+
+原标题：Issue：Docker网络模式选择错误容器互通失败
+简介：环境变量不生效问题修复，排查环境变量加载顺序、作用域问题，修复环境变量读取不到的异常。
+ | 原文链接：m.phatnj.asia/Article/details/1851392.sHtML
+
+原标题：Troubleshoot：CPU调度频繁上下文切换性能下降
+简介：golang go 项目工程目录布局标准，不同规模 go 项目目录结构，小型项目中型项目大型微服务项目布局。
+ | 原文链接：m.phatnj.asia/Article/details/7484696.sHtML
+
+原标题：开源实践：参与开源项目从Issue到PR完整流程
+简介：golang atomic.Value 存储任意类型数据，atomic.Value 安全存储读取任意类型，配置热更新常用。
+ | 原文链接：m.phatnj.asia/Article/details/2947384.sHtML
+
+原标题：golang 系统设计配置敏感信息加密存储
+简介：golang 时间戳秒毫秒纳秒转换，Unix UnixMilli UnixNano 互相转换，区分单位避免时间逻辑 bug。
+ | 原文链接：m.phatnj.asia/Article/details/0747247.sHtML
+
+原标题：前端打包产物体积压缩优化
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：m.phatnj.asia/Article/details/5270683.sHtML
+
+原标题：死信队列处理消息阻塞业务
+简介：golang go 服务日志输出 journald，systemd journald 接收程序 stdout 日志，统一管理服务日志。
+ | 原文链接：m.phatnj.asia/Article/details/5275685.sHtML
+
+原标题：站内邮件消息通知功能开发
+简介：golang makefile 多平台编译脚本，makefile 一键交叉编译多平台二进制，打包镜像，执行测试。
+ | 原文链接：m.phatnj.asia/Article/details/7492818.sHtML
+
+原标题：Hands‑on：编写shell健康检查自动重启脚本
+简介：golang 消息队列 kafka 消费开发，Go 开发 Kafka 消费程序，消费消息执行业务，理解 Kafka 消费逻辑。
+ | 原文链接：m.phatnj.asia/Article/details/7601584.sHtML
+
+原标题：Git 子模块更新代码不全修复
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：m.phatnj.asia/Article/details/3040281.sHtML
+
+原标题：程序信号中断退出处理逻辑
+简介：正则表达式文本处理实战案例，结合业务场景演示正则匹配、提取、替换，处理手机号、邮箱等各类文本校验需求。
+ | 原文链接：m.phatnj.asia/Article/details/5270624.sHtML
+
+原标题：Shell 运维脚本服务器效率提升
+简介：定时任务周期调度 demo 开发，实现简单定时调度程序，按时间周期执行业务逻辑，理解定时任务运行机制。
+ | 原文链接：m.phatnj.asia/Article/details/9692514.sHtML
+
+原标题：极简 API 网关路由转发实现
+简介：golang websocket 服务端开发，Go 实现 WebSocket 服务端，处理连接、消息收发，实现长连接服务。
+ | 原文链接：m.phatnj.asia/Article/details/4159473.sHtML
+
+原标题：golang 系统设计密钥轮换安全实践思路
+简介：golang excel 大文件读取流式解析，流式读取大 excel 文件，逐行解析数据，不加载全部内容进内存。
+ | 原文链接：m.phatnj.asia/Article/details/1568800.sHtML
+
+原标题：Hands‑on：简易频率统计组件Redis实现
+简介：开源项目构建失败排查步骤，梳理构建报错排查流程，从依赖、网络、权限、脚本多角度定位项目构建失败原因。
+ | 原文链接：m.phatnj.asia/Article/details/4802143.sHtML
+
+原标题：安全复盘：OAuth2授权流程安全坑点汇总
+简介：golang 日志 zap 结构化日志实践，接入 Zap 结构化日志库，打印结构化日志，方便日志检索解析。
+ | 原文链接：m.phatnj.asia/Article/details/5701222.sHtML
+
+原标题：golang 系统设计消息队列 topic 设计原则梳理
+简介：golang io.LimitReader 限制读取字节数，LimitReader 限制最大读取，防止读取超大数据。
+ | 原文链接：m.phatnj.asia/Article/details/2947368.sHtML
+
+原标题：golang base64 编码解码实操
+简介：golang go 接口定义原则小接口，go 小接口设计原则，接口尽量小，只定义必要方法，提升代码灵活性。
+ | 原文链接：m.phatnj.asia/Article/details/2935260.sHtML
+
+原标题：Architecture：大文件上传下载系统架构设计
+简介：集成测试业务流程编写示例，编写业务流程集成测试，覆盖完整业务链路，验证模块之间协同工作是否正常。
+ | 原文链接：m.phatnj.asia/Article/details/6381706.sHtML
+
+原标题：Troubleshooting：防火墙安全组拦截访问请求
+简介：golang go 比较运算符可比较类型，哪些类型可以直接 == 比较，map slice 函数不可直接比较。
+ | 原文链接：m.phatnj.asia/Article/details/2669147.sHtML
+
+原标题：程序信号中断退出处理逻辑
+简介：配置外部化线上部署防错误，把配置从代码剥离，外部传入配置，修改配置不需要重新打包构建。
+ | 原文链接：m.phatnj.asia/Article/details/2699361.sHtML
+
+原标题：实践：静态站点自动化部署到GitHubPages
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：m.phatnj.asia/Article/details/8591695.sHtML
+
+原标题：golang k8s 镜像拉取密钥配置
+简介：Redis 内存淘汰策略数据防丢失，合理配置 Redis 内存淘汰策略，防止内存满后误删除业务重要数据。
+ | 原文链接：m.phatnj.asia/Article/details/8225147.sHtML
+
+原标题：golang 系统设计 jmeter 简单压测脚本编写
+简介：golang rabbitmq go 客户端生产消费，streadway/amqp 实现 rabbitmq 生产者消费者，队列交换机绑定。
+ | 原文链接：m.phatnj.asia/Article/details/8215636.sHtML
+
+原标题：入门实践：实现简单文件读写功能
+简介：网关超时时间调优后端等待，调大网关向后端转发请求超时时间，给后端业务充足处理时间。
+ | 原文链接：m.phatnj.asia/Article/details/6403827.sHtML
+
+原标题：性能复盘：慢查询日积月累拖垮数据库优化
+简介：golang 表格驱动测试完整示例，表格驱动多组输入输出，批量执行测试用例，减少重复代码。
+ | 原文链接：m.phatnj.asia/Article/details/1829361.sHtML
+
+原标题：坑点：依赖包内部携带恶意代码供应链风险
+简介：请求工具封装统一异常处理，对网络请求做二次封装，统一捕获各类请求异常，标准化接口返回格式。
+ | 原文链接：m.phatnj.asia/Article/details/8582709.sHtML
+
+三、实战开发｜Practice
+原标题：HTTPS 证书过期更新操作
+简介：golang gorm 事务手动回滚提交，手动控制事务流程，业务异常主动回滚，保障数据操作原子性。
+ | 原文链接：m.phatnj.asia/Article/details/4847372.sHtML
+
+原标题：调优方案：数据库索引不要过度建立，权衡写性能
+简介：golang go 网络编程 net 包基础，net 包 tcp udp socket 编程，监听接收连接，读写数据。
+ | 原文链接：m.phatnj.asia/Article/details/1936250.sHtML
+
+原标题：从零搭建简单定时任务demo
+简介：golang gorm 预加载关联查询优化，GORM 预加载关联数据，避免 N+1 查询问题，提升数据库查询性能。
+ | 原文链接：m.phatnj.asia/Article/details/0815961.sHtML
+
+原标题：golang consul 服务发现简单示例
+简介：golang 字符编码转换 go 处理，iconv‑go 做编码转换 gbk utf8 互转，处理老旧系统 gbk 编码数据。
+ | 原文链接：m.phatnj.asia/Article/details/1815015.sHtML
+
+原标题：golang 系统设计分表扩容数据平滑迁移思路
+简介：golang go mod 私有 git 仓库配置，配置 go mod 拉取私有仓库代码，处理私有模块依赖拉取问题。
+ | 原文链接：m.phatnj.asia/Article/details/0717248.sHtML
+
+原标题：golang 系统设计缓存优化落地实操指南
+简介：数值类型溢出错乱问题修复，选择合适数值存储类型，处理数值溢出，避免数据存储错乱结果异常。
+ | 原文链接：m.phatnj.asia/Article/details/4147259.sHtML
+
+原标题：golang 系统设计多级缓存架构落地
+简介：golang 本地消息表实现最终一致性，本地消息表 + 定时任务轮询，可靠消息实现分布式事务。
+ | 原文链接：m.phatnj.asia/Article/details/3041293.sHtML
+
+原标题：Architecture：鉴权授权系统架构设计思路
+简介：限流规则误拦截正常请求修复，修正限流规则阈值，避免合法用户被限流拦截，兼顾防护与可用性。
+ | 原文链接：m.phatnj.asia/Article/details/1825036.sHtML
+
+原标题：实战项目：容器资源限制配置压力测试实践
+简介：golang 优雅关闭 grpc 服务示例，gRPC 服务优雅关闭，等待现有请求处理完成再停止服务。
+ | 原文链接：m.phatnj.asia/Article/details/2979071.sHtML
+
+原标题：设计思考：防雪崩，系统过载保护架构设计
+简介：golang channel 作为函数参数方向，声明 channel 入参方向，只读 channel 只写 channel 提升代码约束。
+ | 原文链接：m.phatnj.asia/Article/details/7481603.sHtML
+
+原标题：golang 系统设计内存瓶颈定位优化思路
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：m.phatnj.asia/Article/details/4868370.sHtML
+
+原标题：golang 系统设计 rest http 方法使用原则
+简介：golang go decimal 定点小数金额计算，decimal 库处理金额，规避 float64 精度丢失，财务计算。
+ | 原文链接：m.phatnj.asia/Article/details/1828960.sHtML
+
+原标题：golang 系统设计监控体系指标分类方法论梳理
+简介：WebSocket 双向通信 demo 开发，搭建简易 WebSocket 服务，实现客户端服务端双向消息推送，理解实时通信原理。
+ | 原文链接：m.phatnj.asia/Article/details/5374626.sHtML
+
+原标题：golang traceId spanId 传递方案
+简介：golang 表单文件大小限制配置，限制表单上传文件最大体积，拦截超大文件上传请求，保护服务。
+ | 原文链接：m.phatnj.asia/Article/details/5291682.sHtML
+
+原标题：Practice：实现批量任务失败断点续跑实践
+简介：调试工具断点调试变量查看技巧，演示断点设置、变量监视、调用栈查看，借助调试工具高效排查业务逻辑错误。
+ | 原文链接：m.phatnj.asia/Article/details/9603826.sHtML
+
+原标题：实战项目：容器健康探针配置完整实践示例
+简介：golang context.WithTimeout 超时上下文，WithTimeout 设置超时时间，超时自动 cancel 释放协程。
+ | 原文链接：m.phatnj.asia/Article/details/0425027.sHtML
+
+原标题：Practice：实现请求body重复读取中间件实践
+简介：项目目录结构规范化最佳实践，梳理源码、配置、静态资源目录划分，规范项目布局，提升代码可读性和可维护性。
+ | 原文链接：m.phatnj.asia/Article/details/3046463.sHtML
+
+原标题：Debug：网关超时时间小于后端接口超时设置
+简介：golang sync.Map 适用场景与性能对比，读多写少，离散 key，对比普通 map 加锁性能差异。
+ | 原文链接：m.phatnj.asia/Article/details/6694596.sHtML
+
+原标题：golang ip 限流黑名单实现方案
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：m.phatnj.asia/Article/details/6036161.sHtML
+
+原标题：golang 系统设计消息队列降级业务开关实现
+简介：简易日志收集集中管理方案，搭建轻量日志收集方案，把多服务日志汇总，集中检索查看日志信息。
+ | 原文链接：m.phatnj.asia/Article/details/8262603.sHtML
+
+原标题：golang 系统设计本地缓存更新失效方案实现
+简介：消息队列重复消费业务处理，实现消息消费幂等，处理重复投递消息，保证多次消费业务结果一致。
+ | 原文链接：m.phatnj.asia/Article/details/7259462.sHtML
+
+原标题：golang 系统设计消息发送确认机制配置实操
+简介：日志驱动异常日志不输出修复，排查日志驱动配置，修复日志写入配置，恢复程序正常日志输出。
+ | 原文链接：m.phatnj.asia/Article/details/4250673.sHtML
+
+原标题：安全实践：接口错误信息不要暴露内部细节
+简介：YAML 配置文件语法快速上手，讲解 YAML 基础语法、缩进规则，编写项目配置文件，规避语法错误引发程序异常。
+ | 原文链接：m.phatnj.asia/Article/details/1503727.sHtML
+
+原标题：方案对比：单体、微服务、模块化单体取舍
+简介：代理 HTTPS 证书访问异常处理，配置代理根证书，解决代理环境 HTTPS 证书校验失败无法访问外网。
+ | 原文链接：m.phatnj.asia/Article/details/7475026.sHtML
+
+原标题：golang 系统设计 git 工作流本地开发提交流程
+简介：golang go 版本管理 go install 安装工具，go install 安装指定版本 go 工具，管理本地 go 工具版本。
+ | 原文链接：m.phatnj.asia/Article/details/4847068.sHtML
+
+原标题：Hands‑on：模拟RPC超时重试业务异常场景
+简介：golang 单例模式实现几种方式，Go 单例模式多种实现对比，sync.Once 等方式，实现全局唯一实例。
+ | 原文链接：m.phatnj.asia/Article/details/6141493.sHtML
+
+原标题：项目实践：定时任务防重复执行落地实践
+简介：大事务拆分回滚日志暴涨解决，拆分大型数据库事务，减少回滚日志生成量，避免磁盘被回滚日志占满。
+ | 原文链接：m.phatnj.asia/Article/details/0575724.sHtML
+
+原标题：SDK 版本兼容线上崩溃修复
+简介：golang dns 自定义解析器实现，自定义 dns 解析，指定 dns 服务器，控制域名解析逻辑，适配内网环境。
+ | 原文链接：m.phatnj.asia/Article/details/1927262.sHtML
+
+原标题：从零学习简单分布式ID生成思路
+简介：操作系统内核版本适配服务，针对服务运行要求，适配操作系统内核版本，规避内核兼容 bug。
+ | 原文链接：m.phatnj.asia/Article/details/5359372.sHtML
+
+原标题：Troubleshoot：MySQL字符集utf8非utf8mb4emoji报错
+简介：golang 僵尸进程处理 go 程序，正确等待子进程退出，避免产生僵尸进程，占用系统进程表。
+ | 原文链接：m.phatnj.asia/Article/details/8238413.sHtML
+
+原标题：特殊输入字符过滤解析防护
+简介：golang go 逃逸分析实操查看，go build‑gcflags=-m 查看逃逸分析，减少堆分配优化程序性能。
+ | 原文链接：m.phatnj.asia/Article/details/1615823.sHtML
+
+原标题：golang mysql 事务回滚异常处理
+简介：golang 命令行交互 cobra 开发 cli，cobra 库开发功能完善命令行工具，子命令参数标志解析。
+ | 原文链接：m.phatnj.asia/Article/details/3078381.sHtML
+
+原标题：Hands‑on：简易布隆过滤器实现与测试验证
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：m.phatnj.asia/Article/details/5958373.sHtML
+
+原标题：站内邮件消息通知功能开发
+简介：golang io.MultiReader MultiWriter 拼接流，多个 reader 拼接，多 writer 同时写入一份数据。
+ | 原文链接：m.phatnj.asia/Article/details/3796836.sHtML
+
+原标题：golang mongodb 事务多文档使用
+简介：golang go 项目 CI github actions 配置，github actions 实现 go 项目 ci，自动测试、代码检查、编译打包镜像。
+ | 原文链接：m.phatnj.asia/Article/details/8373615.sHtML
+
+原标题：golang 系统设计 git 钩子自动化校验实现
+简介：golang 时间时区处理避坑指南，Go 时间时区常见坑，时区转换，时间比较，规避时间逻辑错误。
+ | 原文链接：m.phatnj.asia/Article/details/1625897.sHtML
+
+原标题：安全笔记：CSP内容安全策略配置实践
+简介：golang context.Background 与 TODO 区别，Background 主流程根上下文，TODO 不确定用哪个上下文时使用。
+ | 原文链接：m.phatnj.asia/Article/details/8366484.sHtML
+
+原标题：golang 系统设计 go netpoll 多路复用简单理解
+简介：golang grpc 错误状态码标准化，grpc 标准化错误返回，定义业务错误码，客户端解析处理业务异常。
+ | 原文链接：m.phatnj.asia/Article/details/9483792.sHtML
+
+原标题：golang redis pipeline 原子性说明
+简介：golang 命令行彩色输出终端，终端彩色文字输出，进度条交互，优化命令行工具用户体验。
+ | 原文链接：m.phatnj.asia/Article/details/5072627.sHtML
+
+原标题：echarts 大数据渲染性能调优
+简介：golang 优雅关闭 grpc 服务示例，gRPC 服务优雅关闭，等待现有请求处理完成再停止服务。
+ | 原文链接：m.phatnj.asia/Article/details/0481816.sHtML
+
+四、架构设计｜Architecture
+原标题：实战项目：CLI批量文件处理工具开发全过程
+简介：磁盘 inode 耗尽文件创建失败，排查磁盘 inode 占用，清理大量小文件，恢复文件创建能力。
+ | 原文链接：m.phatnj.asia/Article/details/4139362.sHtML
+
+原标题：golang 系统设计 docker compose 本地开发环境搭建
+简介：golang context 取消传播机制，父 ctx 取消，所有派生子 context 全部被取消，理解上下文传播。
+ | 原文链接：m.phatnj.asia/Article/details/1926359.sHtML
+
+原标题：定时任务重复执行分布式锁
+简介：golang k8s go 服务 yaml 资源编写，k8s 部署 go 应用 deployment service，健康检查资源限制配置。
+ | 原文链接：m.phatnj.asia/Article/details/2049402.sHtML
+
+原标题：实战：容器内执行调试排错完整实操流程
+简介：golang channel 作为函数参数方向，声明 channel 入参方向，只读 channel 只写 channel 提升代码约束。
+ | 原文链接：m.phatnj.asia/Article/details/9373582.sHtML
+
+原标题：Debug：并发场景下数据覆盖丢失问题定位
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：m.phatnj.asia/Article/details/2935121.sHtML
+
+原标题：任务执行锁防止并发重复调度
+简介：系统字符集统一乱码修复，统一数据库、程序、操作系统字符集，解决中文乱码显示异常问题。
+ | 原文链接：m.phatnj.asia/Article/details/6140383.sHtML
+
+原标题：记一次分布式锁失效引发的数据错乱问题
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：m.phatnj.asia/Article/details/7404704.sHtML
+
+原标题：避坑：ORM框架隐式查询产生大量慢SQL
+简介：golang http client 全局变量复用，http Client 不要每次请求新建，复用 Transport 提升性能。
+ | 原文链接：m.phatnj.asia/Article/details/9603857.sHtML
+
+原标题：golang 系统设计采样策略降低链路存储开销
+简介：golang 空接口 interface {} 类型处理，interface {} 存储任意类型，类型转换，处理泛型之前通用数据。
+ | 原文链接：m.phatnj.asia/Article/details/3848693.sHtML
+
+原标题：Hands‑on：简易的事件订阅发布组件开发实践
+简介：MySQL 慢查询索引优化实战，抓取慢查询 SQL，分析执行计划，新增或者调整索引，提升 SQL 执行速度。
+ | 原文链接：m.phatnj.asia/Article/details/5020579.sHtML
+
+原标题：Practice：实现文件监控自动重启开发服务工具
+简介：golang time.Ticker 泄漏常见场景，忘记 Stop Ticker，导致协程泄漏，定时器资源无法释放。
+ | 原文链接：m.phatnj.asia/Article/details/9704241.sHtML
+
+原标题：macOS 脚本执行权限开启
+简介：golang 命令行参数解析开发，解析命令行入参，开发自定义 CLI 程序，读取启动参数配置服务。
+ | 原文链接：m.phatnj.asia/Article/details/2037492.sHtML
+
+原标题：golang mysql 存储过程简单使用
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：m.phatnj.asia/Article/details/7747470.sHtML
+
+原标题：golang redis 位图用户签到统计
+简介：golang rabbitmq 死信队列延迟消息，rabbitmq 实现死信、延迟消息，处理延时业务场景。
+ | 原文链接：m.phatnj.asia/Article/details/9351512.sHtML
+
+原标题：golang 系统设计延迟消息实现几种方案对比
+简介：golang trace 工具采集 go 程序执行轨迹，go trace 采集程序完整调度轨迹，分析协程调度阻塞问题。
+ | 原文链接：m.phatnj.asia/Article/details/1513704.sHtML
+
+原标题：Docker 网络模式容器互通设置
+简介：golang time.After 内存泄漏场景，for 循环使用 time.After 会创建大量 timer，造成内存泄漏。
+ | 原文链接：m.phatnj.asia/Article/details/2958262.sHtML
+
+原标题：运维笔记：磁盘inode耗尽故障排查处理
+简介：Shell 脚本自动化命令编写，讲解 Shell 基础语法，编写自动化脚本，完成批量执行、文件处理，解放重复手工操作。
+ | 原文链接：m.phatnj.asia/Article/details/9462018.sHtML
+
+原标题：golang 系统信号信号量处理
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：m.phatnj.asia/Article/details/4848184.sHtML
+
+?
