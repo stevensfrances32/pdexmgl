@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：nodejs 接口限流防刷代码实现
+简介：golang redis 过期键监听回调，监听 key 过期事件，过期触发业务逻辑，实现过期自动处理业务场景。
+ | 原文链接：m.f1syga.asia/Article/details/5089563.sHtML
+
+原标题：golang gitlab ci 配置自动构建镜像
+简介：golang go work 多模块本地开发，go work 多模块本地同时开发，本地模块互相引用，无需推送仓库。
+ | 原文链接：m.f1syga.asia/Article/details/2047475.sHtML
+
+原标题：部署复盘：静态资源版本哈希缓存策略
+简介：golang kafka 消费者组重平衡避坑，规避消费者组频繁 rebalance，减少消费抖动，保障消息消费稳定性。
+ | 原文链接：m.f1syga.asia/Article/details/5273525.sHtML
+
+原标题：踩坑记录：CPU亲和配置不合理多核心负载不均
+简介：golang redis 过期时间处理技巧，设置 key 过期，监控过期事件，基于过期特性实现业务缓存逻辑。
+ | 原文链接：m.f1syga.asia/Article/details/2647359.sHtML
+
+原标题：性能复盘：网络IO优化减少接口等待时间
+简介：系统字符集统一乱码修复，统一数据库、程序、操作系统字符集，解决中文乱码显示异常问题。
+ | 原文链接：m.f1syga.asia/Article/details/3057362.sHtML
+
+原标题：调优方案：gzip压缩开启降低网络传输体积
+简介：golang map 并发读写 panic 解决方案，map 非并发安全，讲解加锁、sync.map 方案解决并发读写崩溃。
+ | 原文链接：m.f1syga.asia/Article/details/4151393.sHtML
+
+原标题：golang 系统设计定时任务分片执行分布式思路
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：m.f1syga.asia/Article/details/1884580.sHtML
+
+原标题：golang 系统设计压测指标确定与分析
+简介：本地简易配置中心动态管理，搭建轻量本地配置中心，业务动态读取配置，修改配置不重启服务。
+ | 原文链接：m.f1syga.asia/Article/details/9257251.sHtML
+
+原标题：Shell 运维脚本服务器效率提升
+简介：golang context.Background 与 TODO 区别，Background 主流程根上下文，TODO 不确定用哪个上下文时使用。
+ | 原文链接：m.f1syga.asia/Article/details/0717970.sHtML
+
+原标题：极简方式搭建个人技术文档站点
+简介：golang go mod tidy 依赖清理，go mod tidy 自动增删依赖，整理 go.mod go.sum 文件。
+ | 原文链接：m.f1syga.asia/Article/details/6979039.sHtML
+
+原标题：安全复盘：日志打印敏感信息泄露治理
+简介：golang go 锁竞争导致 CPU 飙升，识别锁竞争场景，减少锁粒度，优化并发逻辑降低 CPU 开销。
+ | 原文链接：m.f1syga.asia/Article/details/0360586.sHtML
+
+原标题：架构复盘：分表扩容架构平滑迁移思路
+简介：golang go 优雅处理信号丢失场景，处理信号丢失、信号被忽略，保障程序可以正常接收终止信号。
+ | 原文链接：m.f1syga.asia/Article/details/6591680.sHtML
+
+原标题：线上接口超时故障排查思路
+简介：Docker 容器网络不通排查，排查容器网络模式、端口映射、防火墙，解决容器之间、容器外部网络不通。
+ | 原文链接：m.f1syga.asia/Article/details/4159362.sHtML
+
+原标题：Issue：系统fd快速上涨进程慢慢卡死
+简介：golang 大文件 HTTP 流式上传接收，服务端流式接收上传文件，不全部加载内存，防止大文件 OOM 崩溃。
+ | 原文链接：m.f1syga.asia/Article/details/0918859.sHtML
+
+原标题：golang 系统设计定时任务失败重试告警实现
+简介：消息消费重试次数限制防爆炸，限制消息最大重试次数，防止失败消息无限重试造成消息爆炸堆积。
+ | 原文链接：m.f1syga.asia/Article/details/2155264.sHtML
+
+原标题：Hands‑on：简易配置热更新组件开发实践
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：m.f1syga.asia/Article/details/4283463.sHtML
+
+原标题：golang 系统设计并发控制协程池任务池实现
+简介：前端工程化 webpack 打包优化，针对 webpack 项目做打包调优，分包、压缩、Tree‑Shaking，缩减包体积。
+ | 原文链接：m.f1syga.asia/Article/details/6379469.sHtML
+
+原标题：Performance：数据库索引优化常见错误案例
+简介：集成测试业务流程编写示例，编写业务流程集成测试，覆盖完整业务链路，验证模块之间协同工作是否正常。
+ | 原文链接：m.f1syga.asia/Article/details/9714025.sHtML
+
+原标题：golang 系统设计 tcc 事务简单原理业务示例
+简介：rebase 操作防止代码丢失，讲解 rebase 风险点，操作前做好备份，规避错误操作造成代码提交丢失。
+ | 原文链接：m.f1syga.asia/Article/details/3150351.sHtML
+
+原标题：golang 系统设计代码评审高效沟通原则思路
+简介：golang 开发环境快速搭建指南，快速完成 Golang 开发环境配置，工具链安装，环境变量设置，准备开发。
+ | 原文链接：m.f1syga.asia/Article/details/9690381.sHtML
+
+原标题：Troubleshoot：MySQL字符集utf8非utf8mb4emoji报错
+简介：项目目录结构规范化最佳实践，梳理源码、配置、静态资源目录划分，规范项目布局，提升代码可读性和可维护性。
+ | 原文链接：m.f1syga.asia/Article/details/3061574.sHtML
+
+原标题：golang 系统设计埋点数据上报方案
+简介：golang go select 多路等待 channel，select 等待多个 channel，default 非阻塞，超时等待 channel。
+ | 原文链接：m.f1syga.asia/Article/details/4140281.sHtML
+
+原标题：开源实践：Fork上游项目，持续同步更新代码
+简介：全局本地依赖隔离冲突规避，区分全局依赖与项目本地依赖，隔离环境，防止全局包干扰项目运行。
+ | 原文链接：m.f1syga.asia/Article/details/6080230.sHtML
+
+原标题：快速入门容器基础概念，理解镜像与容器
+简介：golang 系统调用跟踪 strace 排查 go 程序，strace 跟踪系统调用，定位文件网络 IO 慢的底层原因。
+ | 原文链接：m.f1syga.asia/Article/details/6485795.sHtML
+
+原标题：eslint prettier 代码规范落地
+简介：golang 优雅关闭 grpc 服务示例，gRPC 服务优雅关闭，等待现有请求处理完成再停止服务。
+ | 原文链接：m.f1syga.asia/Article/details/3504735.sHtML
+
+原标题：golang 系统设计一致性哈希原理讲解
+简介：golang 分布式锁防死锁实现要点，锁超时、续期、锁持有者校验，避免锁死锁，保障分布式锁可靠性。
+ | 原文链接：m.f1syga.asia/Article/details/3040393.sHtML
+
+原标题：Performance：长连接管理优化减少连接重建开销
+简介：Git LFS 大文件推送失败解决，配置 Git LFS，处理仓库大文件，解决大文件推送报错推送失败。
+ | 原文链接：m.f1syga.asia/Article/details/0040351.sHtML
+
+原标题：架构复盘：分表扩容架构平滑迁移思路
+简介：数据库排序规则统一结果一致，统一数据库表排序规则，解决不同环境查询排序结果不一致问题。
+ | 原文链接：m.f1syga.asia/Article/details/8291817.sHtML
+
+原标题：golang 系统设计主干开发 trunk‑based 讲解
+简介：golang go 单二进制文件静态编译交叉编译，交叉编译不同操作系统架构二进制文件，实现一次编译多平台运行。
+ | 原文链接：m.f1syga.asia/Article/details/1847359.sHtML
+
+原标题：正则表达式文本处理实战案例
+简介：防火墙 IP 白名单回调接口放行，配置防火墙白名单，放行第三方回调服务器 IP，接收回调请求正常。
+ | 原文链接：m.f1syga.asia/Article/details/2939146.sHtML
+
+原标题：Practice：实现异步回调处理通用组件封装
+简介：GraphQL 接口查询优化实操，体验 GraphQL 查询方式，按需获取字段，减少冗余数据传输，优化接口请求效率。
+ | 原文链接：m.f1syga.asia/Article/details/2940362.sHtML
+
+原标题：排坑：Git提交历史混乱，如何清理错误提交
+简介：golang wasm 性能优化与内存管理，wasm 内存分配释放，减少内存拷贝，优化浏览器端性能。
+ | 原文链接：m.f1syga.asia/Article/details/5969140.sHtML
+
+原标题：前端骨架屏提升页面体验
+简介：golang 分库分表 id 路由规则设计，分库分表 id 路由算法，id 映射库表，数据均匀打散避免热点分片。
+ | 原文链接：m.f1syga.asia/Article/details/8513951.sHtML
+
+原标题：golang 消息队列 kafka 消费开发
+简介：golang jwt 令牌刷新逻辑实现，实现 JWT 双令牌机制，access 短期有效 refresh 刷新令牌，实现无感续期登录。
+ | 原文链接：m.f1syga.asia/Article/details/9524140.sHtML
+
+原标题：优化实践：Redis管道、批量命令减少网络往返
+简介：golang slice 切片底层原理与坑点，切片扩容、截取、底层数组共享，规避切片修改互相影响数据。
+ | 原文链接：m.f1syga.asia/Article/details/5927241.sHtML
+
+原标题：实战：WebSocket断线重连完整业务处理实践
+简介：monorepo 项目多包管理最佳实践，monorepo 仓库管理多子包，统一版本管理，处理包之间互相依赖。
+ | 原文链接：m.f1syga.asia/Article/details/0413928.sHtML
+
+原标题：入门实践：简单错误码设计与使用规范
+简介：golang tar gz 压缩解压处理，tar.gz 归档压缩解压，服务端日志备份、文件打包场景使用。
+ | 原文链接：m.f1syga.asia/Article/details/2038283.sHtML
+
+原标题：golang 系统设计线上 ddl 变更安全执行思路
+简介：程序信号中断退出处理逻辑，捕获系统中断信号，执行资源释放、关闭连接，实现程序优雅退出。
+ | 原文链接：m.f1syga.asia/Article/details/9594706.sHtML
+
+原标题：Practice：实现请求大小限制中间件防护大报文
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：m.f1syga.asia/Article/details/5272507.sHtML
+
+原标题：方案对比：单体、微服务、模块化单体取舍
+简介：golang goroutine 协程基础实操，Goroutine 基础实操案例，启动协程执行任务，理解轻量级协程特性。
+ | 原文链接：m.f1syga.asia/Article/details/8202614.sHtML
+
+
+二、踩坑排错｜Troubleshooting
+原标题：部署实践：HTTPS证书自动续期配置实践
+简介：webpack chunk 分包策略详解，讲解 webpack chunk 分包策略，拆分第三方包与业务代码，优化缓存复用。
+ | 原文链接：m.f1syga.asia/Article/details/4822367.sHtML
+
+原标题：golang 系统设计分库分表中间件思路
+简介：golang channel 通道并发处理，讲解 Channel 用法，协程之间通过通道传递数据，做并发同步控制。
+ | 原文链接：m.f1syga.asia/Article/details/4135702.sHtML
+
+原标题：golang es 查询语句 DSL 实操
+简介：golang socket 文件描述符继承重启，父进程传递 listener fd 给子进程，实现 go 程序零停机热重启。
+ | 原文链接：m.f1syga.asia/Article/details/1837352.sHtML
+
+原标题：Hands‑on：简易网关路由转发组件开发
+简介：golang os 进程 pid 获取父进程 pid，os.Getpid 获取进程 id，获取父进程 pid，进程间识别。
+ | 原文链接：m.f1syga.asia/Article/details/4057363.sHtML
+
+原标题：golang 定时任务 cron 使用指南
+简介：git stash 代码暂存切换分支，使用 stash 暂存未提交代码，切换其他分支处理紧急任务，再恢复原有工作进度。
+ | 原文链接：m.f1syga.asia/Article/details/7191348.sHtML
+
+原标题：golang 系统设计分布式配置中心思路
+简介：简易网关请求路由过滤模拟，模拟网关基础能力，实现请求路由转发、简单过滤，理解网关核心工作逻辑。
+ | 原文链接：m.f1syga.asia/Article/details/3048363.sHtML
+
+原标题：Docker Compose 一键搭建本地栈
+简介：golang 单元测试 table‑driven，表格驱动单元测试写法，批量输入多组测试用例，简化单元测试代码。
+ | 原文链接：m.f1syga.asia/Article/details/1737151.sHtML
+
+原标题：接口请求重试容错机制实现
+简介：golang 配置热更新不重启服务，实现配置热加载，监听配置变更，更新内存配置，无需重启服务实例。
+ | 原文链接：m.f1syga.asia/Article/details/1839061.sHtML
+
+原标题：开发复盘：长轮询接口实现服务端消息推送
+简介：golang go cover 覆盖率报告生成，go test‑cover 生成测试覆盖率，html 可视化查看未覆盖代码行。
+ | 原文链接：m.f1syga.asia/Article/details/5269392.sHtML
+
+原标题：golang 系统设计分库分表中间件思路
+简介：golang 单例模式实现几种方式，Go 单例模式多种实现对比，sync.Once 等方式，实现全局唯一实例。
+ | 原文链接：m.f1syga.asia/Article/details/0935136.sHtML
+
+原标题：golang 系统设计 jmeter 简单压测脚本编写
+简介：nodejs 全局异常捕获进程防护，捕获未捕获异常与 Promise 拒绝，尽量保护进程不因为异常直接退出。
+ | 原文链接：m.f1syga.asia/Article/details/9780790.sHtML
+
+原标题：动态定时任务业务调度实现
+简介：golang 高并发下锁优化减少竞争，减小锁粒度，读写锁替换互斥锁，无锁编程降低锁竞争开销。
+ | 原文链接：m.f1syga.asia/Article/details/7149036.sHtML
+
+原标题：golang context 上下文传参讲解
+简介：语义化版本依赖管理防错乱，项目依赖遵循语义版本约束，规避依赖自动升级引入不兼容变更。
+ | 原文链接：m.f1syga.asia/Article/details/7180584.sHtML
+
+原标题：HelloTest：理解集成测试基础编写思路
+简介：golang grpc 拦截器开发鉴权日志，开发 grpc 服务端拦截器，统一做鉴权、日志打印、异常捕获处理。
+ | 原文链接：m.f1syga.asia/Article/details/9552717.sHtML
+
+原标题：新手指南：项目本地编译输出产物解析
+简介：数据库连接池参数调优，调整连接池最大最小连接数，空闲超时，避免连接耗尽或者资源浪费。
+ | 原文链接：m.f1syga.asia/Article/details/0727948.sHtML
+
+原标题：动态定时任务业务调度实现
+简介：代码模块化组件化拆分思路，讲解代码拆分原则，将大业务拆分为独立模块组件，提升代码复用与维护能力。
+ | 原文链接：m.f1syga.asia/Article/details/8595047.sHtML
+
+原标题：本地运行正常线上报错排查
+简介：golang init 函数合理使用边界，少用 init，优先显式调用初始化，便于控制初始化时机。
+ | 原文链接：m.f1syga.asia/Article/details/7484635.sHtML
+
+原标题：golang 系统设计 pre‑commit 钩子本地代码校验
+简介：golang 内存 dump 线上堆快照采集，线上生成内存 dump 文件，线下分析，定位内存泄漏问题。
+ | 原文链接：m.f1syga.asia/Article/details/1158364.sHtML
+
+原标题：多实例部署 Session 共享方案
+简介：异步异常捕获避免进程崩溃，捕获异步代码内部抛出异常，防止未捕获异常直接导致整个进程退出。
+ | 原文链接：m.f1syga.asia/Article/details/0730181.sHtML
+
+原标题：架构复盘：多实例部署业务状态无状态改造
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：m.f1syga.asia/Article/details/8591646.sHtML
+
+原标题：golang mysql 死锁排查步骤讲解
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：m.f1syga.asia/Article/details/9813023.sHtML
+
+原标题：零基础理解JSON、XML数据格式处理
+简介：golang 消息队列 kafka 消费开发，Go 开发 Kafka 消费程序，消费消息执行业务，理解 Kafka 消费逻辑。
+ | 原文链接：m.f1syga.asia/Article/details/3475574.sHtML
+
+原标题：实践：API接口文档自动导出离线文档实践
+简介：golang go 包循环导入报错解决，A 导入 B B 导入 A，循环导入报错，重构代码拆分包消除循环依赖。
+ | 原文链接：m.f1syga.asia/Article/details/0728028.sHtML
+
+原标题：Troubleshoot：异步异常未捕获，进程悄无声息退出
+简介：手写简易 RPC 服务通信原型，手写极简 RPC 原型，理解服务注册、网络传输、方法调用底层逻辑。
+ | 原文链接：m.f1syga.asia/Article/details/7313815.sHtML
+
+原标题：golang es 分页深分页性能优化
+简介：golang io.LimitReader 限制读取字节数，LimitReader 限制最大读取，防止读取超大数据。
+ | 原文链接：m.f1syga.asia/Article/details/2151393.sHtML
+
+原标题：golang 系统设计缓存预热脚本编写实操
+简介：SourceMap 生成线上报错定位，项目打包生成 SourceMap 文件，线上报错可以还原源码，快速定位报错位置。
+ | 原文链接：m.f1syga.asia/Article/details/4284626.sHtML
+
+原标题：开发复盘：大JSON解析分批处理避免内存溢出
+简介：golang go 泛型使用避坑注意点，泛型与 interface 区别，泛型性能，什么时候适合使用泛型。
+ | 原文链接：m.f1syga.asia/Article/details/7375916.sHtML
+
+原标题：简易网关请求路由过滤模拟
+简介：golang elasticsearch 客户端 golang 实操，es 客户端文档增删改查，条件搜索聚合统计对接搜索引擎。
+ | 原文链接：m.f1syga.asia/Article/details/8503031.sHtML
+
+原标题：前端国际化多语言方案落地
+简介：消息队列重复消费业务处理，实现消息消费幂等，处理重复投递消息，保证多次消费业务结果一致。
+ | 原文链接：m.f1syga.asia/Article/details/7495755.sHtML
+
+原标题：golang 雪花 id 重复问题排查
+简介：golang uuid 生成多种版本实现，生成 uuid v1 v4，生成唯一标识，业务用于单据编号场景。
+ | 原文链接：m.f1syga.asia/Article/details/0728072.sHtML
+
+原标题：方案设计：统一ID生成服务架构对比雪花算法
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：m.f1syga.asia/Article/details/9603719.sHtML
+
+原标题：实战：WebSocket断线重连完整业务处理实践
+简介：golang 命令行彩色输出终端，终端彩色文字输出，进度条交互，优化命令行工具用户体验。
+ | 原文链接：m.f1syga.asia/Article/details/1536150.sHtML
+
+原标题：DevOps：私有镜像仓库搭建与权限管控
+简介：前后端会话登录状态持久化，实现登录状态持久存储，重启服务登录状态不丢失，保障会话稳定性。
+ | 原文链接：m.f1syga.asia/Article/details/2949171.sHtML
+
+原标题：坑点：限流计数器重置时机错误，绕过限流规则
+简介：包管理器依赖缓存清理，清理本地依赖缓存，解决缓存旧包引发问题，拉取最新版本依赖包。
+ | 原文链接：m.f1syga.asia/Article/details/0838060.sHtML
+
+原标题：Performance：批量导入数据性能优化实践
+简介：golang regexp 正则捕获分组提取数据，正则捕获分组提取子匹配内容，拿到需要业务字段。
+ | 原文链接：m.f1syga.asia/Article/details/0794626.sHtML
+
+原标题：开发复盘：超时参数统一治理线上服务实践
+简介：golang http body 必须关闭的重要性，无论成功失败必须关闭 request.Body，否则连接无法复用泄漏。
+ | 原文链接：m.f1syga.asia/Article/details/0727950.sHtML
+
+原标题：golang 系统设计读写穿透更新缓存几种方案
+简介：css 变量主题切换方案实现，使用 CSS 变量实现网页主题切换，多套主题样式快速切换无需大量 CSS。
+ | 原文链接：m.f1syga.asia/Article/details/3164627.sHtML
+
+原标题：golang 接口限流中间件开发
+简介：golang go 单二进制文件静态编译交叉编译，交叉编译不同操作系统架构二进制文件，实现一次编译多平台运行。
+ | 原文链接：m.f1syga.asia/Article/details/5395737.sHtML
+
+原标题：安全实践：请求输入校验防御恶意参数
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：m.f1syga.asia/Article/details/3049193.sHtML
+
+原标题：Security：密码存储哈希加盐最佳实践
+简介：golang kitex 超时重试熔断配置，kitex 配置调用超时、重试、熔断策略，保障微服务调用稳定性。
+ | 原文链接：m.f1syga.asia/Article/details/9912231.sHtML
+
+三、实战开发｜Practice
+原标题：golang redis 缓存雪崩完整处理
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：m.f1syga.asia/Article/details/1030447.sHtML
+
+原标题：Issue：文件编码混合GBKUTF‑8乱码随机出现
+简介：分布式锁失效问题排查修复，分析分布式锁失效场景，修复锁超时、续期问题，保证锁逻辑可靠。
+ | 原文链接：m.f1syga.asia/Article/details/5473523.sHtML
+
+原标题：架构笔记：数据库连接池架构参数调优思路
+简介：express 中间件开发业务实践，开发 Express 自定义中间件，拦截请求，实现鉴权、日志记录等通用逻辑。
+ | 原文链接：m.f1syga.asia/Article/details/6372514.sHtML
+
+原标题：新手教程：本地项目初始化gitignore配置
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：m.f1syga.asia/Article/details/5279684.sHtML
+
+原标题：防火墙 IP 白名单回调接口放行
+简介：端口占用访问失败排查方案，讲解端口占用排查命令，定位占用进程，释放端口，解决服务启动端口被占用报错。
+ | 原文链接：m.f1syga.asia/Article/details/0724737.sHtML
+
+原标题：golang 重试退避机制代码实现
+简介：golang 容器时区设置镜像构建处理，镜像内部设置正确时区，解决容器时间与宿主机不一致。
+ | 原文链接：m.f1syga.asia/Article/details/8505816.sHtML
+
+原标题：新手教程：配置SSH‑Key免密访问GitHub
+简介：HTTPS 证书过期更新操作，检测 HTTPS 证书到期，更新证书文件，恢复 HTTPS 服务正常访问。
+ | 原文链接：m.f1syga.asia/Article/details/4827061.sHtML
+
+原标题：golang 日志与链路 ID 关联打印
+简介：vite 项目配置与构建提速技巧，讲解 vite 配置优化手段，提升开发热更新速度与生产构建打包效率。
+ | 原文链接：m.f1syga.asia/Article/details/4969391.sHtML
+
+原标题：golang alertmanager 钉钉告警推送
+简介：golang goroutine 泄露常见场景汇总，channel 阻塞、context 忘记取消，导致协程无法退出发生泄露。
+ | 原文链接：m.f1syga.asia/Article/details/8591829.sHtML
+
+原标题：vue pinia 状态管理实战教程
+简介：调试工具断点调试变量查看技巧，演示断点设置、变量监视、调用栈查看，借助调试工具高效排查业务逻辑错误。
+ | 原文链接：m.f1syga.asia/Article/details/9302817.sHtML
+
+原标题：golang 系统设计分布式事务业务选型决策思路
+简介：golang go 泛型使用避坑注意点，泛型与 interface 区别，泛型性能，什么时候适合使用泛型。
+ | 原文链接：m.f1syga.asia/Article/details/7302817.sHtML
+
+原标题：入门实践：简单批量处理脚本编写
+简介：CI 流水线构建失败日志排查，阅读 CI 流水线输出日志，定位构建脚本、依赖、环境导致流水线失败问题。
+ | 原文链接：m.f1syga.asia/Article/details/9505846.sHtML
+
+原标题：golang 系统设计灰度发布实现思路
+简介：重复提交幂等防护再次讲解，梳理前端重复点击、网络重试场景，落地接口幂等，杜绝重复业务。
+ | 原文链接：m.f1syga.asia/Article/details/1525140.sHtML
+
+原标题：DevOps：多阶段构建Dockerfile最佳实践
+简介：浏览器缓存强制刷新方案，设置 HTTP 缓存头，处理浏览器缓存旧静态资源，让用户加载更新后的页面。
+ | 原文链接：m.f1syga.asia/Article/details/1835241.sHtML
+
+原标题：Hands‑on：简易频率统计组件Redis实现
+简介：golang os 主机名内核版本读取，os 读取主机名，内核信息，操作系统版本，获取运行环境信息。
+ | 原文链接：m.f1syga.asia/Article/details/3269584.sHtML
+
+原标题：golang 系统设计多级缓存架构落地
+简介：灰度发布策略服务平滑升级，实现灰度发布逻辑，流量逐步切到新版本，出现问题快速回滚旧版本。
+ | 原文链接：m.f1syga.asia/Article/details/3049251.sHtML
+
+原标题：golang 系统设计配置敏感信息加密存储
+简介：SDK 版本兼容线上崩溃修复，处理 SDK 版本升级之后线上崩溃，定位 API 变更，做版本兼容适配改造。
+ | 原文链接：m.f1syga.asia/Article/details/9602046.sHtML
+
+原标题：项目实践：幂等表实现接口幂等业务实践
+简介：golang http3 quic 客户端服务端示例，go 实现 http3 quic 服务端客户端，体验 quic 协议低延迟特性。
+ | 原文链接：m.f1syga.asia/Article/details/0937958.sHtML
+
+原标题：开源项目构建失败排查步骤
+简介：接口幂等性防重复请求实现，实现接口幂等逻辑，避免重复提交请求产生多条脏数据，保障业务数据安全。
+ | 原文链接：m.f1syga.asia/Article/details/7596829.sHtML
+
+原标题：架构复盘：服务优雅停机架构设计资源释放
+简介：golang 雪花 id 重复问题排查，排查雪花算法 ID 重复问题，时钟回拨、机器 ID 冲突，给出修复方案。
+ | 原文链接：m.f1syga.asia/Article/details/6070694.sHtML
+
+原标题：ICMP 放通网络丢包问题修复
+简介：golang go 单二进制文件静态编译交叉编译，交叉编译不同操作系统架构二进制文件，实现一次编译多平台运行。
+ | 原文链接：m.f1syga.asia/Article/details/3368846.sHtML
+
+原标题：golang 系统设计缓存更新策略 cache aside 讲解
+简介：golang sync.Mutex 互斥锁正确模式，互斥锁 defer Unlock，锁粒度控制，避免锁范围过大。
+ | 原文链接：m.f1syga.asia/Article/details/4162414.sHtML
+
+原标题：预编译 SQL 防注入实现
+简介：golang aes cbc gcm 模式加密对比，AES‑CBC AES‑GCM 模式加密解密，理解两种模式差异选型。
+ | 原文链接：m.f1syga.asia/Article/details/7372404.sHtML
+
+原标题：golang 系统设计分布式锁超时业务防死锁处理
+简介：定时任务重复执行分布式锁，使用分布式锁控制定时任务，保证集群环境定时任务只会执行一次。
+ | 原文链接：m.f1syga.asia/Article/details/7405036.sHtML
+
+原标题：线上异常：布隆过滤器误判造成业务逻辑异常
+简介：golang go 爬虫 html 解析 goquery，goquery 解析 html 文档，css 选择器提取网页内容，实现网页数据抓取。
+ | 原文链接：m.f1syga.asia/Article/details/4150170.sHtML
+
+原标题：golang 系统设计开源版本发布 changelog 维护
+简介：编译打包产物依赖分析解读，分析打包之后产物组成，理清运行依赖文件，排查打包后缺失文件问题。
+ | 原文链接：m.f1syga.asia/Article/details/4040203.sHtML
+
+原标题：golang 协程泄露问题排查方法
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：m.f1syga.asia/Article/details/4262389.sHtML
+
+原标题：golang 系统设计降级策略开关配置方案
+简介：Git 误提交撤销回退实操教程，演示多种撤销提交方式，区分已经推送远程和本地未提交场景，处理误提交代码。
+ | 原文链接：m.f1syga.asia/Article/details/1839170.sHtML
+
+原标题：golang 系统设计 saga 事务补偿模式实现思路
+简介：golang jwt jwk 公钥验证令牌，使用 jwk 公钥校验 jwt，非对称方式签发校验令牌，提升安全性。
+ | 原文链接：m.f1syga.asia/Article/details/0425914.sHtML
+
+原标题：效率笔记：VSCode插件集合后端前端开发效率
+简介：golang 日志级别动态调整热更新，不用重启程序动态修改日志输出级别，线上调试排查问题十分方便。
+ | 原文链接：m.f1syga.asia/Article/details/8796647.sHtML
+
+原标题：入门实践：简单错误码设计与使用规范
+简介：golang go mod replace 本地模块替换，replace 替换模块为本地目录，修改第三方库本地调试。
+ | 原文链接：m.f1syga.asia/Article/details/0082025.sHtML
+
+原标题：golang 系统设计异步化改造业务流程思路
+简介：Cookie 跨环境登录配置调整，调整 Cookie 域、Secure 属性，适配开发测试生产环境，修复登录失效。
+ | 原文链接：m.f1syga.asia/Article/details/9456253.sHtML
+
+原标题：golang docker 部署 es 本地开发
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：m.f1syga.asia/Article/details/9314026.sHtML
+
+原标题：golang 系统设计缓存故障降级处理方案
+简介：不必要字符转义关闭业务异常，关闭多余自动转义逻辑，防止业务数据被错误转义，破坏原始数据。
+ | 原文链接：m.f1syga.asia/Article/details/8291686.sHtML
+
+原标题：安全组端口开放网络访问
+简介：golang redis zset 实现延时任务队列，zset 存储任务到期时间，轮询到期任务执行，简易延迟队列。
+ | 原文链接：m.f1syga.asia/Article/details/9613938.sHtML
+
+原标题：特殊输入字符过滤解析防护
+简介：golang goroutine 泄露常见场景汇总，channel 阻塞、context 忘记取消，导致协程无法退出发生泄露。
+ | 原文链接：m.f1syga.asia/Article/details/3048250.sHtML
+
+原标题：golang redis 主从复制哨兵原理
+简介：开发测试生产多环境配置区分，讲解三套环境配置分离思路，配置文件隔离，防止开发配置泄露到生产环境。
+ | 原文链接：m.f1syga.asia/Article/details/7616847.sHtML
+
+原标题：日志输出规范防止磁盘爆满
+简介：Nginx 反向代理路由配置实战，配置 Nginx 反向代理，实现请求转发、路由分发，掌握 Nginx 基础配置能力。
+ | 原文链接：m.f1syga.asia/Article/details/9609171.sHtML
+
+原标题：golang mysql limit 大分页优化
+简介：golang 配置文件热加载监听变更，监听配置文件改动，自动重新加载配置，业务即时生效无需重启。
+ | 原文链接：m.f1syga.asia/Article/details/9291582.sHtML
+
+原标题：性能笔记：HTTP连接复用性能优化实践
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：m.f1syga.asia/Article/details/4161304.sHtML
+
+四、架构设计｜Architecture
+原标题：golang mysql 时间类型选型避坑
+简介：golang kafka 同步异步消费对比，对比 Kafka 同步消费异步消费，分析优缺点，业务选型参考。
+ | 原文链接：m.f1syga.asia/Article/details/1827260.sHtML
+
+原标题：零基础理解幂等性基础概念与场景
+简介：golang runtime.Gosched 主动让出调度，长计算循环主动 Gosched，让出调度权，防止其他协程饥饿。
+ | 原文链接：m.f1syga.asia/Article/details/7482708.sHtML
+
+原标题：设计思考：业务系统如何做故障隔离架构
+简介：golang gin 参数绑定 query form json，掌握 Gin 多种参数绑定方式，适配不同请求格式参数读取。
+ | 原文链接：m.f1syga.asia/Article/details/1302704.sHtML
+
+原标题：开发复盘：大数据量分页避免offset性能问题
+简介：golang 分布式 ID 雪花算法实现，Go 实现雪花算法，生成分布式全局唯一 ID，适配分库分表主键。
+ | 原文链接：m.f1syga.asia/Article/details/2939474.sHtML
+
+原标题：复盘总结：微服务改造踩坑经验总结记录
+简介：golang gorm select 指定查询字段，指定查询字段，避免查询全部字段，减少数据传输，提升查询性能。
+ | 原文链接：m.f1syga.asia/Article/details/8592811.sHtML
+
+原标题：Architecture：中小型后端服务整体架构设计复盘
+简介：golang interface 接口使用避坑，interface 判 nil 坑点，理解接口底层结构，避免判空逻辑失效。
+ | 原文链接：m.f1syga.asia/Article/details/3159361.sHtML
+
+原标题：新手指南：本地防火墙端口访问失败排查
+简介：依赖版本冲突兼容修复方案，定位依赖版本冲突根源，通过版本约束、替换包，解决版本不兼容运行报错。
+ | 原文链接：m.f1syga.asia/Article/details/6080693.sHtML
+
+原标题：从零编写简易 CLI 命令行工具
+简介：golang math 包常用数学函数，绝对值取整平方根三角函数，业务数学计算工具。
+ | 原文链接：m.f1syga.asia/Article/details/1058371.sHtML
+
+原标题：数值类型溢出错乱问题修复
+简介：golang time 时间格式化参考时间牢记，2006‑01‑02T15:04:05Z07:00，掌握 go 时间格式化关键点。
+ | 原文链接：m.f1syga.asia/Article/details/6047133.sHtML
+
+原标题：golang k8s 网络策略网络隔离设置
+简介：golang dns 自定义解析器实现，自定义 dns 解析，指定 dns 服务器，控制域名解析逻辑，适配内网环境。
+ | 原文链接：m.f1syga.asia/Article/details/5580102.sHtML
+
+原标题：开发记录：分布式锁超时业务安全处理实践
+简介：golang testify mock 模拟接口，mock 接口生成 mock 对象，单元测试模拟外部依赖行为。
+ | 原文链接：m.f1syga.asia/Article/details/9380479.sHtML
+
+原标题：部署实践：Nginx高可用配置方案实践
+简介：简易日志收集集中管理方案，搭建轻量日志收集方案，把多服务日志汇总，集中检索查看日志信息。
+ | 原文链接：m.f1syga.asia/Article/details/9379361.sHtML
+
+原标题：新手指南：本地防火墙端口访问失败排查
+简介：主干开发团队代码合并策略，讲解主干开发模式，团队代码合并流程，适合高频迭代的团队协作模式。
+ | 原文链接：m.f1syga.asia/Article/details/6383526.sHtML
+
+原标题：Practice：JWT工具封装，刷新令牌完整逻辑
+简介：内存广播本地进程消息通知，实现进程内内存消息广播，进程内部模块之间事件通知解耦。
+ | 原文链接：m.f1syga.asia/Article/details/5261325.sHtML
+
+原标题：K8s 镜像拉取网络故障修复
+简介：golang 分布式唯一 id 多种方案对比，雪花、redis、uuid 对比各方案优缺点，指导业务选型使用。
+ | 原文链接：m.f1syga.asia/Article/details/2936146.sHtML
+
+原标题：开发记录：批量接口请求并发控制实践
+简介：golang 本地消息表实现最终一致性，本地消息表 + 定时任务轮询，可靠消息实现分布式事务。
+ | 原文链接：m.f1syga.asia/Article/details/2947259.sHtML
+
+原标题：新手教程：如何给开源项目提交第一个PR
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：m.f1syga.asia/Article/details/8491240.sHtML
+
+原标题：golang 系统设计 protobuf 枚举类型规范写法
+简介：nodejs 项目 pm2 部署运维指南，使用 PM2 管理 Node 服务，进程守护、日志、重启，线上部署运维实操。
+ | 原文链接：m.f1syga.asia/Article/details/8492708.sHtML
+
+?
